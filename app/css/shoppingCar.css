@@ -1,0 +1,306 @@
+@CHARSET "UTF-8";
+/*头部css*/
+body {font-family: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif; font-size: 12px;}
+
+.empty_cart { display:none;}
+.empty_cart.show { display:block; }
+.full_car { display:block;}
+.full_car.show { display:block; }
+#loadImg { height:300px; background:url(../images/loding.gif) no-repeat center;}
+/*内容部分*/
+
+.content .cartEmpty { padding: 80px 0px 120px;}
+.content .cartEmpty .emptyIcon {background:url(../images/carSprites.png) no-repeat left -222px;  float: left; width: 89px; height: 70px; margin-left: 252px;}
+.content .cartEmpty  .emptyText { padding-left: 30px; float: left; width: 629px; font-size: 14px;}
+.content .cartEmpty  .emptyText span {display: block; margin: 14px 0px 5px 0px;}
+ .content .cartEmpty  .emptyText a { color: #1754a4;}
+.content .contentInner { width:1000px; margin:auto; }
+.content  .shoppingProcedure { width:617px; height:36px; line-height:36px; overflow:hidden; background: url(../images/shoppingProcedure.png) no-repeat left center; margin:28px 0px 0;}
+.content  .shoppingProcedure  span { float:left; width:185px; height:36px; color:#666; font-size:14px; text-align:center; padding:0px 0px 0px 20px;}
+.content  .shoppingProcedure  span.current {color:#fff;}
+
+
+/*购物车tab切*/
+
+.tabShoppCar { margin-top:34px;  }
+.content  .carTab { float:left;  }
+.content  .carTab ul li { float: left;line-height: 30px;   margin:0 25px 0 5px; border-bottom:3px solid #ffffff; }
+.content  .carTab ul li a { color: #333333; font-family:'Microsoft YaHei';  font-size: 18px ; display: block; height: 30px;   text-decoration: none;}
+.content  .carTab ul li.cur { border-bottom:3px solid #e60000; }
+.content  .carTab ul li.cur a{ color: #e60000;}
+.content  .carTab ul li:hover { border-bottom:3px solid #e60000; }
+.content  .carTab ul li.hover a{ color: #e60000;}
+/*重要提示*/
+.shoppingTip {  overflow:hidden; float:right; line-height:30px; }
+.shoppingTip strong {  float:left;  color:#e60000; padding-right:10px; }
+.shoppingTip span { float:left;  color:#666; font-size:12px;}
+
+
+
+/*购物车标题*/
+.shoppingCar .shoppingTitle { border:1px solid #e4e4e4; height:38px;}
+ .shoppingCar .shoppingTitle ul { overflow:hidden; line-height:38px;}
+.shoppingCar .shoppingTitle ul li { overflow:hidden; float:left; color:#666;}
+.shoppingCar .shoppingTitle ul li.f1 span { cursor:pointer; margin:12px 23px 0px 13px; float:left;  height:14px; width:14px; background:url(../images/carSprites.png) no-repeat left -32px; text-indent:999px; overflow:hidden; display:inline;}
+.shoppingCar .shoppingTitle ul li.f1 span.selectAll { background:url(../images/carSprites.png) no-repeat left -47px;}
+.shoppingCar .shoppingTitle ul li.f1 { width:152px; overflow:hidden;}
+.shoppingCar .shoppingTitle ul li.f2{ width:233px;}
+.shoppingCar .shoppingTitle ul li.f3 { width:126px; }
+.shoppingCar .shoppingTitle ul li.f4 { width:131px;}
+.shoppingCar .shoppingTitle ul li.f5 { width:154px;}
+.shoppingCar .shoppingTitle ul li.f6 { width:120px;}
+.shoppingCar .shoppingTitle ul li.f7 { width:78px; }
+/*购物车*/
+.shoppingListWrap { }
+.shoppingListWrap .shoppingItem { height:1%; zoom:1; margin-top:20px;}
+/*活动头部*/
+.shoppingListWrap .itemHead { overflow:hidden; padding-bottom:15px;   line-height:22px;}
+.shoppingListWrap .itemHead .slogan {  padding-left:15px; overflow:hidden; }
+.shoppingListWrap .itemHead .slogan span{ background:#ff2832; color:#fff; height:22px; line-height:22px; display:block; padding:0px 5px; border-radius:3px;}
+.shoppingListWrap .itemHead .activityInfor a{ color:#1354a6; margin-left:10px;}
+.shoppingListWrap .itemHead .activityInfor b { color:#ff2832; margin:0 5px 0 9px;}
+.shoppingListWrap .itemHead .activityInfor a.fight { color:#ff2832; margin-left:5px;}
+.shoppingListWrap .itemHead .favoPrice { padding-right:170px; }
+.shoppingListWrap .itemHead .favoPrice del { color:#666;margin-right:10px;}
+.shoppingListWrap .itemHead .favoPrice span {font-size:14px;  color:#ff2832; font-size:15px; font-weight:500;}
+
+
+
+.hasActivity .listWrap {border:1px solid #d0d0d0; }
+.unavailable {border:1px solid #d0d0d0;}
+.NoActivity {border:1px solid #d0d0d0;}
+.unavailable .shoppingList .goodQuantity .quantityForm a,.unavailable .shoppingList .goodQuantity .quantityForm input {
+    background:none;
+    cursor:default;
+}
+.shoppingList { padding:16px 0px; border-bottom:1px solid #e7e7e7; position:relative; }
+.shoppingList.select { background:#fffbf0;}
+.shoppingList:last-child { border-bottom:none;}
+.shoppingList .cartCheckbox { width:50px;}
+.shoppingList .cartCheckbox span { margin:29px 23px 0px 13px; float:left;  height:14px; width:14px; background:url(../images/carSprites.png) no-repeat left -32px; text-indent:999px; overflow:hidden; display:inline; cursor:pointer;}
+.shoppingList .cartCheckbox span.selected { background:url(../images/carSprites.png) no-repeat left -47px; }
+.shoppingList .goodImg  {background:#fff; border:1px solid #e4e4e4; height:86px; width:86px; text-align:center;}
+.shoppingList .goodImg a { display:block; padding:3px 0px;}
+.shoppingList .goodImg img { height:80px; max-width:80px;}
+.shoppingList .goodName {  width:195px; padding-left:15px; padding-right:42px; line-height:20px; height:88px; overflow:hidden; text-overflow: ellipsis; display:table; -webkit-box-orient: vertical;-webkit-line-clamp: 2;}
+.shoppingList .goodName a { color:#333; display: table-cell; vertical-align:middle;}
+.shoppingList .goodName a:hover { color:#333;}
+.shoppingList .goodPrice { margin-top:38px; width:128px; }
+.shoppingList .goodPrice strong { color:#666; font-size:15px;}
+.shoppingList .goodSellPrice { position:relative; margin-top:38px; width:76px;}
+.shoppingList .goodSellPrice strong { color:#666; font-size:15px;}
+.shoppingList .goodSellPrice .salesPromotion { height:18px; border:1px solid #ff2832; width:53px; padding:0px 14px 0px 7px; margin:3px 0px 0px 0px; color:#e4393c;  display:block; position:relative; cursor:pointer;  }
+.shoppingList .goodSellPrice .salesPromotion b { position:absolute; width:7px; height:4px;  background:url(../images/carSprites.png) no-repeat 0px -27px; right:8px; top:8px;}
+.shoppingList .goodSellPrice .promotionWrap { position:absolute; top:23px; left:0px;  width:276px; display:none;}
+.shoppingList .goodSellPrice .promotionWrap .promotionTit{ height:18px; border:1px solid #ff2832; width:53px; padding:0px 14px 0px 7px; color:#ff2832;  display:block; position:relative; cursor:pointer; border-bottom:none; background:#fff; z-index:100;}
+.shoppingList .goodSellPrice .promotionWrap .promotionTit b{  position:absolute; width:7px; height:4px;  background:url(../images/carSprites.png) no-repeat 0px -24px; right:8px; top:8px; }
+.shoppingList .goodSellPrice .promotionWrap .promotionCont{  background:#fff; border: 1px solid #ff2832;  position:relative; top:-1px; }
+.shoppingList .goodSellPrice .promotionWrap .promotionCont ul { padding:5px 10px 0px;;}
+.shoppingList .goodSellPrice .promotionWrap .promotionCont ul  li { line-height:23px;}
+.shoppingList .goodSellPrice .promotionWrap .promotionCont ul  li input { margin: 3px 3px 0px 5px;}
+.shoppingList .goodSellPrice .promotionBtns a{ margin: 0px 5px;}
+.shoppingList .goodSellPrice .promotionWrap  .promotionBtns { margin-top:10px; margin-bottom:10px; text-align:center;}
+
+.shoppingList .goodQuantity { padding-top:32px; padding-left:49px; width:90px; padding-right:65px; text-align:center;}
+.shoppingList .goodQuantity .quantityForm{ padding-top:10px; overflow:hidden; }
+.shoppingList .goodQuantity .quantityForm span { display:block; text-align:center; width:80px;}
+.shoppingList .goodQuantity .quantityForm a { text-decoration:none; float:left; height:22px; width:21px; line-height:20px; text-align:center; background:#fff; border:1px solid #d6d6d6; color:#333;}
+.shoppingList .goodQuantity .quantityForm a.disabled { color:#fff; background:#efeff4;}
+.shoppingList .goodQuantity .quantityForm input { float:left; width:42px;  border:1px solid #d6d6d6; line-height:20px; border-left:none; border-right:none; text-align:center; height:20px; vertical-align:middle; color:#333;}
+.shoppingList .goodQuantity .limitText { line-height:28px; color:#ff2832;  text-align:center;}
+
+
+.shoppingList .goodSum { position:relative; margin-top:38px; width:120px;}
+.shoppingList .goodSum strong { color:#666; font-size:15px;}
+.shoppingList .goodOperation {  padding-top:30px; line-height:22px;}
+.shoppingList .goodOperation a { display:block; color:#333;}
+
+
+.zengpin {background:#ffeed6;}
+.huangou { background:#e8f1ff;}
+.shoppingList .cartCheckbox b { margin:35px 0px 0px 8px;  height:18px; width:34px; text-align:center;  display:block; border-radius:3px;}
+.hasActivity .shoppingList.zengpin .cartCheckbox b { background:#fa9000; color:#fff;}
+.hasActivity .shoppingList.huangou .cartCheckbox b { background:#2054a8; color:#fff;}
+.unavailable .shoppingList { background:#f0f0f0;}
+.unavailable .shoppingList .cartCheckbox b { background:#dadada; color:#5f5f5f;}
+
+
+
+.giftWrap .adgift_tit { line-height:40px;  overflow:hidden; height:40px;}
+.giftWrap .adgift_tit span { float:left;margin-left:50px; margin-right:10px; color:#2054a8;}
+.giftWrap .adgift_tit a { float:left; color:#fff; height:22px; line-height:22px; padding:0 17px 0 6px; margin:9px 0 0; background:#2054a8 url(../images/arrow_dwon.png) no-repeat 58px;}
+.giftWrap.tog .adgift_tit a { background:#2054a8 url(../images/arrow_up.png) no-repeat 58px;}
+.adgift_list { background-color: #e8f1ff;border-bottom:1px solid #e7e7e7;}
+.adgift_list.hide {display:none;}
+.adgift_list .list_tit { padding-left:50px; height:30px; line-height:30px; color:#333;}
+.adgift_list .list_tit em{color:#ff2832;margin:0px 3px;}
+.adgift_list ul { padding:0 0 0 26px;}
+.adgift_list li {width: 182px;height: 88px;padding: 6px 30px 0px 24px;text-align: left;line-height: 20px;float:left;position:relative;  overflow:hidden;margin-top:10px;}
+.adgift_list li span.checkbox{position:absolute;left:0px;top:5px;cursor: pointer;height: 14px;width: 14px;background: url(../images/carSprites.png) no-repeat left -32px;}
+.adgift_list li span.checkbox.slected{ background: url(../images/carSprites.png) no-repeat left -47px;}
+.adgift_list li .img {width: 78px;height: 78px;float: left;padding:5px;text-align:center;background:#fff;}
+.adgift_list li .img img{max-width:78px;height:78px;}
+.adgift_list li .info {margin-left:10px;float: left;width: 83px}
+.adgift_list li p.name {overflow: hidden;line-height:18px;height:36px;text-overflow:ellipsis;display:-webkit-box; -webkit-box-orient:vertical;-webkit-line-clamp:2;}
+.adgift_list li p.name a {color: #666;}
+.adgift_list li p.price {margin-top:30px;overflow:hidden;}
+.adgift_list li p span.red {float:left;color:#ff2832;font-size:15px;}
+.adgift_list li p span.through {text-decoration: line-through;float:right;}
+.adgift_list .pages {display: inline-block;margin: 0 auto;clear: both}
+.adgift_list .pages a {width: 16px;height: 22px;line-height: 22px;border-bottom: 2px solid #fff;display: inline-block;margin: 0 5px}
+.adgift_list .pages a.on,.adgift_list .pages a:hover {border-color: #ff2832;text-decoration: none;color: #4f4f4f}
+.adgift_list li.unable {position: relative;cursor: default}
+.adgift_list li.unable:hover { border-color: #fff}
+.adgift_list li .un_mask {background: #646464;opacity: .6;filter: alpha(opacity:60);position: absolute;left: 0;top: 0;width: 254px; height: 96px;z-index: 7}
+.adgift_list li .un_tip {width: 100%;font-size: 14px;color: #fff;line-height: 96px;text-align: center;position: absolute;left: 0;top: 0;z-index: 8}
+.limitGift { position:absolute; background:#fff; color:#ff2832; border:1px solid #c4c4c4; padding:3px 5px; margin:-4px 0px 0px 10px;}
+.promotionBtns { text-align:center; padding:16px 0px;}
+.promotionBtns a { margin:0px 10px;}
+.giftBtns { text-align:center; padding:10px 0px;}
+.giftBtns a { margin:0px 10px;}
+
+
+/*页面购物车脚部*/
+.shoppingfootWrap { width:100%; margin-top:20px; background:#e5e5e5; padding:9px 0px; }
+.shoppingFoot { width:998px; margin:auto;  background:#fafafa; height:60px;}
+.shoppingfootinner.fixed {box-shadow: 0 -1px 8px rgba(0,1,1,.08); width:100%;  bottom:0px; overflow:hidden; position:fixed; left:0px; background:#e5e5e5; border-top:none; z-index:999; padding:9px 0px;}
+.shoppingFoot .shoppingFootLeft { height:60px; line-height:60px;}
+.shoppingFoot .shoppingFootLeft .Checkbox { width:75px; color:#333;}
+.shoppingFoot .shoppingFootLeft .Checkbox span {margin:23px 23px 0px 13px; float:left;  height:14px; width:14px; background:url(../images/carSprites.png) no-repeat left -32px; text-indent:999px; overflow:hidden; display:inline; cursor:pointer;}
+.shoppingFoot .shoppingFootLeft .Checkbox span.selectAll { background:url(../images/carSprites.png) no-repeat left -47px; }
+.shoppingFoot .shoppingFootLeft .removeGood {  padding-left:19px;  }
+.shoppingFoot .shoppingFootLeft .removeGood a { color:#333;}
+.shoppingFoot .shoppingFootLeft .removeToCelect { width:84px; padding-left:20px;  }
+.shoppingFoot .shoppingFootLeft .removeToCelect a { color:#333;}
+
+.shoppingFoot .shoppingFootRight  { height:60px;}
+.shoppingFoot .shoppingFootRight .shoppingResult  { height:60px; padding-right:30px;}
+ .shoppingFoot .shoppingFootRight .shoppingResult .result { height:30px; color:#333; line-height:30px; text-align:right;}
+.shoppingFoot .shoppingFootRight .shoppingResult .result span {  font-size:14px; color:#e31436; padding:0px 5px;}
+.shoppingFoot .shoppingFootRight .shoppingResult .result span#J_isFreight { color:#333;}
+.shoppingFoot .shoppingFootRight .shoppingResult .result .money { font-size:18px; padding:0px;}
+.shoppingFoot .shoppingFootRight .shoppingResult .result b { color:#e31436; font-size:18px;}
+.shoppingFoot .shoppingFootRight .shoppingResult .discoutResult { height:25px; color:#999; line-height:25px; text-align:right;}
+.shoppingFoot .shoppingFootRight .submitBtn { cursor:pointer; height:60px; line-height:60px; text-align:center; width:164px; color:#fff; background:red; font-size:22px; }
+.shoppingFoot .shoppingFootRight .submitBtn.cur { color:#fff; background:#ff2832;}
+.shoppingFoot .shoppingFootRight .submitBtn a { color:#fff;}
+.shoppingFoot .shoppingFootRight .submitBtn a:hover { text-decoration:none; }
+
+
+
+.content .avtitle { margin:10px 0px 10px 0px; height:24px; line-height:24px;}
+.content .avtitle span { float:left;    margin: 5px 10px 0px 13px;  height: 14px;  width: 14px; background: url(../images/carSprites.png) no-repeat left -32px; display: inline; cursor: pointer;}
+.content .avtitle i.avIcon { float:left;  margin: 3px 5px 0px 5px;height: 18px; width: 18px; background:#ff1822;color:#fff;line-height:18px; text-align:center;font-size:12px;border-radius:3px;}
+.content .avtitle a { float:left; color:#333;}
+.content .shoppingListWrap { width:1000px;}
+.content .shoppingListWrap .shoppingList .goodDetail { width:66px;}
+.content .shoppingListWrap .shoppingList .goodDetail .goodImg { border:1px solid #c4c4c4; padding:5px 2px; background:#fff; height:60px; width:60px; text-align:center;}
+.content .shoppingListWrap .shoppingList .goodDetail .goodImg a { display:block; }
+.content .shoppingListWrap .shoppingList .goodDetail .goodImg a img { height:60px; max-width:60px;}
+.shoppingList .goodEdit {  margin-left:168px; padding:0px 0px 15px 0px;}
+.shoppingList .goodEdit .goodName { width:230px; height:40px; line-height:20px;  overflow:hidden;  text-overflow: ellipsis; -webkit-line-clamp: 2; margin-top:13px;}
+.shoppingList .goodEdit .InventoryStatus { height:18px; line-height:18px; color:#fff; text-align:center; background:#ff2832; width:65px; margin-top:5px;}
+.shoppingList .goodEdit .goodPrice { width:100px; text-align:center; padding-top:10px;}
+.shoppingList .goodEdit .goodPrice strong { color:#000; font-size:14px;}
+.content .shoppingListWrap .shoppingItem.hasActivity  .shoppingList:last-child  .goodEdit { border-bottom: none;}
+
+
+.avfoot { height:50px; line-height:50px; border-top:1px solid #dcdcdc; margin:20px 0px 0px 0px;}
+.avfoot .title { float:left; padding:0px 0px 0px 65px; color:#333;  font-size:14px;  }
+.avfoot .con { float:right; padding:0px 170px 0px 0px; color:#ff2832; font-size:14px; }
+
+
+
+/*弹出对话框 css*/
+/*删除商品*/
+.deletDialog { position:absolute; left:50%; top:50%; border: 4px solid rgba(0,0,0,.1); background:#fff; border-radius:5px; width:400px; margin-left:-200px; height:160px; margin-top:-80px; z-index:999999;}
+.deletDialog .dialogTittle { height:30px; line-height:30px; background:#f3f3f3; padding:0px 10px;}
+.deletDialog .dialogTittle span { float:left; color:#666; font-size:14px;}
+.deletDialog .dialogTittle a { float:right; height:13px; width:13px; background:url(../images/carSprites.png) no-repeat left -146px; margin-top:8px; text-indent:-9999px; overflow:hidden;}
+.deletDialog .dialogContent { position:relative; padding:10px 40px 0px;}
+.deletDialog .dialogContent span.warnIcon { position:absolute; width:48px; height:42px;  background:url(../images/carSprites.png) no-repeat -1px -92px; }
+.deletDialog .dialogContent .text { padding-left:58px;}
+.deletDialog .dialogContent .opBtn { margin-top:20px; text-align:center;}
+.deletDialog .dialogContent .opBtn a { margin:0px 5px; display:inline-block;}
+.deletDialog .dialogContent .opBtn a:hover { text-decoration:none;}
+/*移到我的收藏*/
+.collectDialog {  position:absolute; left:50%; top:50%; border: 4px solid rgba(0,0,0,.1); background:#fff; border-radius:5px; width:400px; margin-left:-200px; height:160px; margin-top:-80px; z-index:999999;}
+.collectDialog .dialogTittle { height:30px; line-height:30px; background:#f3f3f3; padding:0px 10px;}
+.collectDialog .dialogTittle span { float:left; color:#666; font-size:14px;}
+.collectDialog .dialogTittle a { float:right; height:13px; width:13px; background:url(.Sprite./images/cars.png) no-repeat left -146px; margin-top:8px; text-indent:-9999px; overflow:hidden;}
+.dialogContent { position:relative; padding:10px 40px 40px;}
+.warnIcon { position:absolute; width:48px; height:42px;  background:url(../images/carSprites.png) no-repeat -1px -92px; }
+.dialogContent .text { padding-left:58px;}
+.dialogContent .text h3{ color:#ff6c00}
+.dialogContent .text .tx_02{ color:#aaa;}
+.dialogContent .layer_but { margin-top:20px; text-align:center;}
+.dialogContent .layer_but button { margin:0px 5px; display:inline-block;}
+
+
+
+
+
+/*猜你喜欢的*/
+.recommended_panel { padding-top: 30px; position:relative; z-index:0;}
+.recommended_panel .w_1000 { width: 1000px; margin: auto;}
+.recommended_panel  h3 { display: none;}
+.recommended_panel  .tablist {  border-bottom: 1px solid #c4c4c4;}
+.recommended_panel  .tablist ul{}
+.recommended_panel  .tablist ul li { float: left;line-height: 42px; text-align: center; padding: 0px 10px; cursor: pointer;}
+.recommended_panel  .tablist ul li span { color: #323232; font-size: 14px ; display: block; height: 42px; padding: 0px 5px;}
+.recommended_panel  .tablist ul li.cur span{ color: #ff2832;}
+.recommended_panel  .tablist .wrap_line{ height: 2px ;  position: relative;}
+.recommended_panel  .tablist .wrap_line .line{ height: 2px ; width: 100px; background: #ff2832; position: absolute; left: 0px; top: 1px;}
+.recommended_panel  .content_panel {height: 341px; overflow: hidden; position: relative; z-index: 99;}
+.recommended_panel  .content_panel .content_list {  position: relative; height: 341px;  padding: 0px 10px; z-index:90;}
+.recommended_panel  .content_panel .content_list .p_wrap {position: relative; overflow: hidden; margin-top: 20px;}
+.recommended_panel  .content_panel .content_list .p_wrap ul { width: 100000px;}
+.recommended_panel  .content_panel .content_list .p_wrap ul li { float: left; width: 156px; padding: 0px 20px; height: 265px;}
+.recommended_panel  .content_panel .content_list .p_wrap ul li .p_img { height: 156px; width:156px; overflow: hidden; text-align:center; }
+.recommended_panel  .content_panel .content_list .p_wrap ul li .p_img a { display: block}
+.recommended_panel  .content_panel .content_list .p_wrap ul li .p_img a  img { max-width:150px; max-height:150px; }
+.recommended_panel  .content_panel .content_list .p_wrap ul li .p_name {height:36px; margin-top:3px; line-height:18px; overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;  -webkit-box-orient: vertical}
+.recommended_panel  .content_panel .content_list .p_wrap ul li .p_name a { font-size: 12px; color: #323232;}
+.recommended_panel  .content_panel .content_list .p_wrap ul li .p_name a:hover {  color: #ff2832;}
+.recommended_panel  .content_panel .content_list .p_wrap ul li .p_price { overflow: hidden; height: 20px; padding-top: 5px; line-height: 20px;}
+.recommended_panel  .content_panel .content_list .p_wrap ul li .p_price del { float: right; color:#787878;}
+.recommended_panel  .content_panel .content_list .p_wrap ul li .p_price strong { float: left; font-size: 16px; color: #ff2832;}
+.recommended_panel  .content_panel .content_list .p_wrap ul li .p_button { text-align: center; padding-top: 15px;}
+.recommended_panel  .content_panel .content_list .p_wrap ul li .p_button .btn_apppend { border:1px solid #999; height: 28px; padding:0px 20px; line-height: 28px; font-size: 12px; display: inline-block; border-radius: 3px; color: #666;}
+.recommended_panel  .content_panel .content_list .p_wrap ul li .p_button .btn_apppend:hover { color: #fff; background: #ff2832; text-decoration: none; border:1px solid #ff2832;}
+.recommended_panel  .content_panel .content_list .focus_dot { text-align: center; margin: 20px 0px 20px;}
+.recommended_panel  .content_panel .content_list .focus_dot span { cursor:pointer;display: inline-block; height: 12px;  width: 12px; border-radius: 12px; background:#aaa; margin: 0px 5px;}
+.recommended_panel  .content_panel .content_list .focus_dot span.on { background: #ff2832; }
+.recommended_panel  .content_panel .content_list .arrow { display: none; position: absolute; width: 34px; height: 70px; top:40px; background:url(../images/carSprites.png) no-repeat; }
+.recommended_panel  .content_panel .content_list .arrow:hover { opacity: 0.8; filter:alpha(opacity=80);}
+.recommended_panel  .content_panel .content_list .arrow.left { background-position: 0px -149px; left: 0px;}
+.recommended_panel  .content_panel .content_list .arrow.right { background-position: -34px -149px; right: 0px;}
+
+ .ebtn {display: inline-block;height: 22px;line-height: 22px;color: #fff;border-radius: 2px;background:#2054a8;}
+ .ebtn:hover {color:#fff;text-decoration:none;}
+
+/*弹框css*/
+.pop_div { position: absolute;   z-index: 998;   padding-bottom:9px; }
+.pop_div .inner { border: 1px solid #c9c9c9;width: 123px; background:#fff; padding:0px 15px; height: 74px; position:relative;}
+.pop_div .inner b.arrow { position:absolute; bottom:-9px; left:38px; width:13px; height:9px;background:url(../images/icon_sprite.png) no-repeat -17px -35px;}
+.pop_div p { font-size: 12px; color: #666;  text-align: left; padding:10px 0px; }
+.pop_div .pop_opr { text-align: center; margin-top:5px; }
+.pop_div .pop_opr a { margin:0px 5px;}
+
+
+.popWrap { border:none; border-radius:0px; }
+.popWrap .popTitle .close{ display:none;}
+.popWrap .popContent {background:url(../images/loding.gif) no-repeat center; background-size:30px 12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

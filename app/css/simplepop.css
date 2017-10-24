@@ -1,0 +1,62 @@
+/*.popMask { position: fixed; top: 0; left: 0; display: none; width: 100%; height: 100%; z-index: 9998; }
+
+.popMain { position: fixed; overflow: hidden; display: none; font-size: 15px; font-family: 'Microsoft YaHei'; border-radius: 4px; z-index: 9999; }
+.popMain .info_icon { background: #fff url(images/ico.png) no-repeat 0px -28px; }
+.popMain .right_icon { background: #fff url(images/ico.png) no-repeat 0px 0px; }
+.popMain .error_icon { background: #fff url(images/ico.png) no-repeat 0px -56px; }
+.popMain .confirm_icon { background: #fff url(images/ico.png) no-repeat 0px -84px; }
+.popMain .loding_icon { background: #fff url(images/loding.gif) no-repeat; }
+.popTitle { background: #18b077; display: none; }
+.popTitle .text { margin-left: 15px; line-height: 48px; font-weight: bold; font-size: 15px; color: #fff; }
+.popTitle .icon { float: left; margin: 6px 0 0 6px; width: 16px; height: 16px; }
+.popTitle .close { position: absolute; top: 3px; right: 0; font-size: 22px; margin: 0px 15px; font-weight: 900; cursor: pointer; color: #FFF; }
+.popTitle .close:hover { color: #cccccc; }
+.popContent { background: #fff; overflow: auto; padding: 30px 80px; }
+.popContent .layer_msg { padding-left: 50px; max-width: 400px; }
+.popContent .layer_msg p { line-height: 28px; margin: 0; font-size: 16px; font-family: 'Microsoft YaHei'; }
+.popContent .layer_msg input { margin-bottom: 10px; height: 20px; margin-top: 10px; outline: none; }
+.popContent .layer_but { padding-left: 50px; max-width: 400px; }
+#simplePopBtnSure { border: none; cursor: pointer; padding: 6px 20px; color: #fff; float: right; margin-top: 13px; font-size: 15px; background-color: #fa9a0e; border-radius: 3px; }
+#SimplePopBtncancel { border: none; cursor: pointer; padding: 6px 20px; color: #fff; float: left; margin-top: 13px; font-size: 15px; background-color: #9d9d9d; border-radius: 3px; }
+.popContent .layer_msg button:hover { background-color: #cd9244; }
+.popContent .layer_msg button:active { background-color: #cd9244; }*/
+
+/*自定义内容*/
+/*.upText { }
+.upText input[type='text'] { width: 200px; height: 20px; padding: 8px 5px; outline: none; border: 1px solid #dadada; }
+.upText input[type='text']:focus { border: 1px solid #fa9a0e; }
+.upText textarea { width: 200px; line-height: 20px; padding: 5px; outline: none; border: 1px solid #dadada; }
+.upText textarea:focus { border: 1px solid #fa9a0e; }
+
+.errormsg { color: red; }*/
+
+
+.popMask { position: fixed; top: 0; left: 0; display: none; width: 100%; height: 100%; z-index: 9998; }
+
+.popMain { position: fixed; overflow: hidden; display: none;  font-family: 'Microsoft YaHei'; border-radius: 4px; z-index: 9999; border: 4px solid #e6e6e6;  }
+.popMain .info_icon { background: #fff url(../images/ico.png) no-repeat 0px -28px; }
+.popMain .right_icon { background: #fff url(../images/ico.png) no-repeat 0px 0px; }
+.popMain .error_icon { background: #fff url(../images/ico.png) no-repeat 0px -56px; }
+.popMain .confirm_icon { background: #fff url(../images/ico.png) no-repeat 0px -84px; }
+.popMain .loding_icon { background: #fff url(../images/loding.gif) no-repeat; }
+.popTitle { background: #f3f3f3; display: none; }
+.popTitle .text { margin-left: 15px; line-height: 30px; font-weight: bold; font-size: 12px; color: #666; }
+.popTitle .icon { float: left; margin: 6px 0 0 6px; width: 16px; height: 16px; }
+.popTitle .close { position: absolute; top: 3px; right: 0; font-size: 22px; margin: 0px 15px; font-weight: 900; cursor: pointer; color: #999; }
+.popTitle .close:hover { color: #cccccc; }
+.popContent { background: #fff; overflow: auto; }
+.popContent .layer_msg { padding-left: 50px; max-width: 400px; }
+.popContent .layer_msg p { line-height: 28px; margin: 0; font-size: 16px; font-family: 'Microsoft YaHei'; }
+.popContent .layer_msg input { margin-bottom: 10px; height: 20px; margin-top: 10px; outline: none; }
+
+
+
+
+/*自定义内容*/
+.upText { }
+.upText input[type='text'] { width: 200px; height: 20px; padding: 8px 5px; outline: none; border: 1px solid #dadada; }
+.upText input[type='text']:focus { border: 1px solid #fa9a0e; }
+.upText textarea { width: 200px; line-height: 20px; padding: 5px; outline: none; border: 1px solid #dadada; }
+.upText textarea:focus { border: 1px solid #fa9a0e; }
+
+.errormsg { color: red; }

@@ -1,0 +1,292 @@
+/* CSS Document */
+.width1200 { width: 1200px; margin: auto; }
+.marginTOP10 { margin-top: 10px; }
+/*网站顶部*/
+.pageHeader { background:#fff;}
+.topBar { background:#efefef; }
+.topBar .loginArea { float:left; line-height:30px; color:#666 }
+.topBar .loginArea a { color:#666; margin-right:7px; }
+.topBar .loginArea a:hover { color:#e70b1c;}
+.topBar .topNav { float:right; line-height:30px;}
+.topBar .topNav span { color:#cecece;font-size:12px;}
+.topBar .topNav a { margin:0 15px;}
+/*网站搜索*/
+.headSearchArea .logo { float:left; padding:24px 86px 30px 0; overflow:hidden; }
+.headSearchArea .logo a { float:left;  }
+.headSearchArea .logo a.logoImg { margin-right:14px; }
+.headSearchArea .logo a.logoTst { width:56px; height:22px; text-align:center; line-height:20px; color:#fff; font-size:16px; background:#ec4800; font-family: 'Microsoft YaHei'; border-radius:5px; text-decoration:none; margin-top:20px; }
+.headSearchArea .searchArea { float:left;  padding:20px 0 0 0; position:relative; }
+.headSearchArea .searchArea .searchForm { border:3px solid #e70b1c; height:35px;overflow:hidden; position:relative;  }
+.headSearchArea .searchArea .searchForm .searchKeyword {height: 24px; line-height: 24px; padding:6px 6px 5px; float:left; width:420px; border:none; color:#333; font-size:13px; }
+.headSearchArea .searchArea .searchForm .button {float: left;width: 77px; height: 35px; background: #e70b1c url(../Images/searchCircle.png) no-repeat 9px center; border: none; line-height: 1;color: #fff;font-family: "Microsoft YaHei";font-size: 16px;cursor: pointer;padding:0 0 0 6px;}
+.headSearchArea .searchArea .searchHotWord {}
+.headSearchArea .searchArea .searchHotWord a { color:#666666; margin:0 12px; line-height:28px;}
+.headSearchArea .searchArea .searchHotWord a:hover { text-decoration:underline;}
+.headSearchArea .webSlogan { float:right; padding-top:25px; overflow:hidden; }
+.headSearchArea .webSlogan span { float:left; height:30px;  padding-left:51px; line-height:30px; font-size:16px; color:#212121; font-family:'Microsoft YaHei';  }
+.headSearchArea .webSlogan span.new { background:url(../Images/newIcon.png) no-repeat left; margin-right:20px;}
+.headSearchArea .webSlogan span.post { background:url(../Images/postIcon.png) no-repeat left;}
+.headSearchArea .searchArea .searchForm .dropDown { position:absolute; right:77px; top:0; height:35px; border-left:1px solid #cecece; }
+.headSearchArea .searchArea .searchForm .dropDown select { border:none; height:35px; vertical-align:middle; width:80px; color:#999999;  }
+.headSearchArea .searchArea .searchForm .dropDown select:focus option:checked { background:#f5f5f5; }
+.bigautocomplete-layout{
+    display: none;
+    background: #FFFFFF;
+    border: 1px solid #d1d1d1;
+    position: absolute;
+    z-index: 100;
+    max-height: 300px;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.bigautocomplete-layout table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    cursor: default;
+}
+.bigautocomplete-layout table tr {
+    cursor:pointer;
+}
+.bigautocomplete-layout table tr td{
+    overflow:hidden;
+    padding:0 16px 0 7px;
+}
+
+
+
+.bigautocomplete-layout .ct{
+    background:#e1f4ff;
+}
+.bigautocomplete-layout div{
+    height:30px;
+    line-height:30px;
+    color:#666;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    float:left;
+    width:70%;
+}
+.bigautocomplete-layout span {
+    float:right;
+    height:30px;
+    line-height:30px;
+}
+.bigautocomplete-layout span i {
+    color:#e70b1c;
+    padding:0 2px;
+}
+
+/*热销图书*/
+.ATC_contact {
+    padding-bottom:55px;
+    width:1000px;
+    margin:auto;
+}
+#hot_book30 {
+    margin-top:40px;
+}
+.ATC_contact .tit{
+    border-bottom:1px solid #e32828;
+}
+.ATC_contact .tit h2 {
+    color:#e32828;
+    font-size:16px;
+    font-family:'Microsoft YaHei';
+    height:40px;
+    line-height:40px;
+}
+.ATC_contact .ATCC_list {
+
+}
+.ATC_contact .ATCC_list ul {
+    overflow:hidden;
+}
+.ATC_contact .ATCC_list ul li {
+    float:left;
+    width:240px;
+    margin-right:13px;
+    margin-top:15px;
+}
+.ATC_contact .ATCC_list ul li .cover {}
+.ATC_contact .ATCC_list ul li .cover a {
+    display:block;
+}
+.ATC_contact .ATCC_list ul li .cover a img {
+    width:100%;
+}
+.ATC_contact .ATCC_list ul li .infor {
+    padding-top:5px;
+}
+.ATC_contact .ATCC_list ul li .infor h2{
+    text-align:center;
+    font-size:12px;
+    line-height:30px;
+    display:none
+}
+.ATC_contact .ATCC_list ul li .infor p {
+
+    height: 48px;
+    line-height: 24px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+
+}
+.ATC_contact .ATCC_list ul li .infor p a {
+    color:#333333;
+    display:block;
+    font-size:14px;
+    font-family:"Microsoft YaHei";
+}
+.ATC_contact .ATCC_list ul li .price {
+    margin-top:10px;
+    line-height:32px;
+}
+.ATC_contact .ATCC_list ul li .price span {
+    font-size:16px;
+    font-family:"Microsoft YaHei";
+    color:#e32828;
+}
+.ATC_contact .ATCC_list ul li .price del {
+    font-size:16px;
+    font-family:"Microsoft YaHei";
+    color:#e32828;
+    text-decoration:line-through;
+    color:#999999;
+    margin-left:25px;
+}
+
+.ATC_contact .ATCC_list ul li .buyButton  a {
+    display:block;
+    height:28px;
+    line-height:28px;
+    width:144px;
+    margin:auto;
+    border:1px solid #999999;
+    border-radius:3px;
+    text-align:center;
+    color: #666;
+    font-size:12px;
+    text-decoration:none;
+}
+.ATC_contact .ATCC_list ul li .buyButton  a:hover {
+    border: 1px solid #ff2832; background: #ff2832; color:#fff;
+}
+
+/*网站导航*/
+.pageNav { background:#e70b1c; }
+.pageNav ul { overflow:hidden; padding:0 0 0 7px;}
+.pageNav ul li { float:left; line-height:44px; display:inline; }
+.pageNav ul li a { display:block; color:#fff; height:44px; font-size:16px;  padding:0 28px;background:#e70b1c; font-family:'Microsoft YaHei'; }
+.pageNav ul li a:hover {background:#c10715; text-decoration:none;}
+.pageNav ul li.cur a{ background:#c10715; text-decoration:none;}
+/*网站banner*/
+.pageBanner { padding-top:15px; background:#e8e8e8;}
+.pageBanner .w_1200Inner { overflow:hidden;}
+/*网站尾部*/
+.w_1000 { width:1000px; margin:auto;}
+.footer { overflow:hidden;border-top:1px solid #e60000; }
+.footer .footer_nav {
+    margin: 10px auto 0 auto;
+    padding: 10px 0 0 0;
+    overflow:hidden;
+
+}
+
+.footer .footer_nav dl {
+    float: left;
+    line-height: 24px;
+    display: inline;
+}
+
+.footer .footer_nav dl.fl {
+    width: 230px;
+}
+
+.footer .footer_nav dl.f2 {
+    width: 190px;
+}
+
+.footer .footer_nav dl.f3 {
+    width: 142px;
+}
+
+.footer .footer_nav dl.f4 {
+    width: 192px;
+}
+
+.footer .footer_nav dl.f5 {
+    width: 110px;
+}
+
+.footer .footer_nav dl.weixin {
+    width: 132px;
+    float: right;
+}
+
+.footer .footer_nav dl.weixin dt {
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.footer .footer_nav dl.weixin dd {
+    float: right;
+    width: 120px;
+}
+
+.footer .footer_nav dl.weixin dd img {
+    width: 100%;
+}
+
+.footer .footer_nav dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer .certifica {
+    padding: 10px 0 0 0;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.footer .certifica .credit_certifica {
+    float: left;
+    display: inline;
+}
+
+.footer .certifica .credit_certifica a {
+    margin: 0 15px 0 0;
+}
+
+.footer .certifica .licence {
+    float: right;
+    display: inline;
+}
+
+.footer .certifica .licence a {
+    margin: 0 0 0 15px;
+    color: #646464;
+}
+
+.footer .certifica .licence a:hover {
+    color: #ff6405;
+}
+
+.footer .certifica .licence span {
+    margin: 0 0 0 15px;
+    color: #646464;
+}
+.pagelist {padding:10px 0; text-align:center;}
+.pagelist span,.pagelist a{ border-radius:3px; border:1px solid #dfdfdf;display:inline-block; padding:5px 12px;}
+.pagelist a{ margin:0 3px;}
+.pagelist span.current{ background:#09F; color:#FFF; border-color:#09F; margin:0 2px;}
+.pagelist a:hover{background:#09F; color:#FFF; border-color:#09F; }
+.pagelist label{ padding-left:15px; color:#999;}
+.pagelist label b{color:red; font-weight:normal; margin:0 3px;}

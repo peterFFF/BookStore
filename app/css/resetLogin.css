@@ -1,0 +1,55 @@
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,table,caption,th,td,form,fieldset,legend,input,button,textarea{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#fff;
+	font:12px/22px 宋体,微软雅黑;
+}
+:focus{
+	outline:none;
+}
+ul,ol{
+	list-style:none;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+caption,th{
+	text-align:left;
+	font-weight:normal;
+}
+img,iframe{
+	border:0;
+}
+i,cite,em,var,address{
+	font-style:normal;
+}
+h1,h2,h3,h4,h5,h6,small{
+	font-size:100%;
+}
+a,button{
+	cursor:pointer;
+}
+h1,h2,h3,h4,h5,h6,em,strong,b{
+	font-weight:bold;
+}
+del,ins,u,s,a{
+	text-decoration:none;
+}
+a,a:hover{
+	color:#333;
+}
+
+.clear:after{
+	display:block;
+	height:0;
+	content:".";
+	visibility:hidden;
+	clear:both;
+}
+.clear{
+	zoom:1;
+}

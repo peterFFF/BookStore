@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+
+
+/*顶部css*/
+.topBar {height:30px; border-bottom:1px solid #dbdbdb; background:#fff; }
+.topBar .topBarInner { width: 1000px; margin: auto; overflow: hidden;}
+.topBar .topLeft { line-height:30px;}
+.topBar .noLoginWrap { height: 30px; line-height:30px;}
+.topBar .noLoginWrap strong { color:#f80000;}
+.topBar .noLoginWrap a { color:#666;}
+.topBar .loginWrap .loginUser { color:#f80000; }
+.topBar .loginWrap .exit { color:#666; margin-left:15px;}
+.topBar .topRight { line-height:30px; overflow:hidden;}
+.topBar  .topRight span{ float:left; height:16px; width:19px; background: url(../images/carSprites.png) no-repeat; margin-top:7px;}
+.topBar .topRight a { color:#666666; float: left; background: url(../images/topbarlibg.jpg) no-repeat right center; height: 30px; padding:0px 10px;}
+.topBar .topRight a b { color:#f80000; font-weight:bold; font-size:14px; padding:0px 5px;}
+.topBar .topRight a:hover { text-decoration: underline;}
+/*logo CSS*/
+.logoBar { border-bottom:2px solid #fa9000; }
+.logoBar .logoBarInner{ width:1000px; margin:auto; overflow:hidden;}
+.logoBar .logoBarInner .logo {  padding:22px 0px;}
+.logoBar .logoBarInner h1 { height:167px; height:47px; overflow:hidden; }
+.logoBar .logoBarInner .ad {padding:26px 0px; height:36px; line-height:36px;}
+.logoBar .logoBarInner .ad span { float:left; color:#1a1a1a; font-size:12px; background: url(../images/promiseAd.png) no-repeat left; padding-left:49px; margin-right:33px;}
+.logoBar .logoBarInner .ad span.zhengbang {background: url(../images/promiseAd.png) no-repeat left;  }
+.logoBar .logoBarInner .ad span.liujiu {background: url(../images/promiseAd.png) no-repeat -141px; }
+.logoBar .logoBarInner .ad span.yizhe {background: url(../images/promiseAd.png) no-repeat -289px; margin-right:0px }
+
+.btn-01 {
+    font-family: arial,"Microsoft YaHei";
+    display: inline-block;
+    *display: inline;
+    *zoom:1;height: 22px;
+    line-height: 22px;
+    padding:0px 13px;
+    background-color: #ff2832;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0;
+    float: none;
+}
+
+.btn-01:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff2832;
+}
+
+.btn-02 {
+    font-family: arial,"Microsoft YaHei";
+    display: inline-block;
+    *display: inline;
+    *zoom:1;height: 22px;
+    line-height: 23px;
+     padding:0px 12px;
+    background-color: #999999;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 9px;
+    vertical-align: middle;
+    cursor: pointer;
+    float: none;
+}
+
+.btn-02:hover {
+    color: #fff;
+    text-decoration: none;
+    -webkit-box-shadow: 0 1px 1px rgba(0,1,1,.08);
+    -moz-box-shadow: 0 1px 1px rgba(0,1,1,.08);
+    box-shadow: 0 1px 1px rgba(0,1,1,.08);
+    background-color: #999;
+}
+.cusSer {
+    position: fixed;
+    right: 0;
+    top: 150px;
+    z-index: 999;
+}
+.cusSer .cusSerIn {
+    position: relative;
+    padding-left: 24px;
+}
+.cusSer .slide_min {
+    width: 24px;
+    font-family: SimHei;
+    font-size: 14px;
+    height: 64px;
+    cursor: pointer;
+    text-align: center;
+    background: #ff6c00 url(http://image31.bookschina.com/pro-images/qqkefu/kefu.png) no-repeat center 5px;
+    color: #fff;
+    padding-top: 24px;
+    line-height: 15px;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -44px;
+    text-decoration:none;
+}
+/*顶部导航*/
+#top-navi-wrap{
+    background-color: #f7f7f7;
+    border-toppop_con: 3px solid #213e82;
+    border-bottom: 1px solid #e5e5e5;
+}
+/*顶部导航-登录按钮*/
+a.top-nav-login-title{
+    background:url(../images/top-nav-login-title.png);
+    color:#fff;
+}
+/*顶部导航-当前登录用户*/
+a.current-user{
+    color:#0E439A;
+}
+
+/*logo区域*/
+
+#logo a{
+    background-image:url(../images/2017081818045636647.jpg);
+}
+
+/*搜索栏*/
+
+

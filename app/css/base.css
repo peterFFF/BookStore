@@ -1,0 +1,64 @@
+
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; }
+td, th { word-break: break-all; word-wrap: break-word; }
+table { border-collapse: collapse; border-spacing: 0; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+input, button { outline: 0; }
+:focus { outline: 0; }
+img { border: 0; vertical-align: middle; }
+button { border: 0; }
+ul, li, ol, dl, dd, dt { list-style: none; }
+em, i, strong, b { font-style: normal; font-weight: 400; }
+body { font-size: 12px; background: #fff; font-family: Arial,Verdana,"宋体"; }
+a { text-decoration: none; color: #333; outline: 0; }
+a:hover { text-decoration: underline; color: #e70b1c; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { zoom: 1; display: block; }
+.fl { float:left;}
+.fr { float:right;}
+
+/*分页*/
+.page { font: 11px Arial, Helvetica, sans-serif; padding: 30px 20px 30px 0; margin: 0px; text-align: center; }
+.page a { padding: 8px 20px; background: #fff; text-decoration: none; margin-right: 12px; font-size: 14px; }
+.page .noPage { padding: 8px 20px; background: #fff; text-decoration: none; margin-right: 2px; }
+.page a:visited { padding: 1px 6px; background: #fff; text-decoration: none; }
+.page .curPage { padding: 8px 20px; border: none; background: #e70b1c; color: #FFF; font-size: 14px; }
+.page a:hover { border-color: #2287bd; text-decoration: none; }
+
+
+/*返回顶部*/
+.bocktop { display:none; cursor:pointer; position:fixed; left:50%; margin-left:610px; bottom:80px; width:40px; height:40px; background:url(/Content/images/backtop.jpg) no-repeat;}
+.bocktop a {display:block; padding:4px 8px; line-height:16px; text-indent:-999px; overflow:hidden;  color:#333;}
+.bocktop:hover { background:none;}
+.bocktop:hover a { text-indent:0px;background:#e6e6e7;}
+.bocktop:hover a:hover { text-decoration:none;}
+
+.cusSer {
+    position: fixed;
+    right: 0;
+    top: 150px;
+    z-index: 999;
+}
+.cusSer .cusSerIn {
+    position: relative;
+    padding-left: 24px;
+}
+.cusSer .slide_min {
+    width: 24px;
+    font-family: SimHei;
+    font-size: 14px;
+    height: 64px;
+    cursor: pointer;
+    text-align: center;
+    background: #ff6c00 url(http://image31.bookschina.com/pro-images/qqkefu/kefu.png) no-repeat center 5px;
+    color: #fff;
+    padding-top: 24px;
+    line-height: 15px;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -44px;
+    text-decoration:none;
+}

@@ -1,0 +1,306 @@
+﻿
+.content { z-index:7;  }
+.category-content .category {  display:none; }
+/*banner CSS */
+.kindBanner { margin-top:10px; }
+/*面包屑css*/
+.crumbsBar { margin-top:19px;  }
+.crumbsBar .crumbsNav { }
+.crumbsBar .crumsItem { float:left; line-height:22px; }
+.crumbsBar .crumsItem a { color:#666666; text-decoration:none; }
+.crumbsBar .crumsItem a:hover { color:#e60000; }
+.crumbsBar i { float:left; width:5px; height:9px; text-indent:-999px; overflow:hidden;background: url(../Images/childredSprit.png) no-repeat -152px -472px; margin:6px 7px 0 10px; }
+.crumbsBar .crumsDrop { float:left; position:relative;  }
+.crumbsBar .crumsDrop .dropMenu { height:20px; border:1px solid #e5e5e5; line-height:20px; overflow:hidden; padding:0 6px 0 5px; position:relative; z-index:2; background:#fff; }
+.crumbsBar .crumsDrop .dropMenu a { float:left; color:#666; text-decoration:none; } 
+.crumbsBar .crumsDrop .dropMenu a:hover { color:#e60000; }
+.crumbsBar .crumsDrop .dropMenu span { float:left; width:7px; height:4px; margin:9px 0 0 5px; background: url(../Images/childredSprit.png) no-repeat -141px -491px; }
+.crumbsBar .crumsDrop:hover .dropMenu { border:1px solid #e60000; border-bottom:none; background:#fff; height:21px; }
+.crumbsBar .crumsDrop:hover .dropMenu span { background-position:-153px -490px; }
+.crumbsBar .crumsDrop .dropCon { position:absolute; width:390px; top:21px; left:0; border:1px solid #e60000; overflow:hidden;  z-index:1; display:none;}
+.crumbsBar .crumsDrop:hover .dropCon { display:block; }
+.crumbsBar .crumsDrop .dropCon .dropList { padding:7px 0 7px 5px; line-height:22px; background:#fff;  }
+.crumbsBar .crumsDrop .dropCon .dropList ul  { overflow:hidden;  }
+.crumbsBar .crumsDrop .dropCon .dropList ul li { float:left; width:72px; margin-right:5px; height:22px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+.crumbsBar .crumsDrop .dropCon .dropList ul li a { color:#666666; text-decoration:none; }
+.crumbsBar .crumsDrop .dropCon .dropList ul li a:hover { color:#e60000; }
+.crumbsBar .selectItem { float:left; height:22px; line-height:22px; background:#e8e8e8;   margin-right:10px; cursor:pointer; }
+.crumbsBar .selectItem a { overflow:hidden; padding:0 6px; display:block; }
+.crumbsBar .selectItem em { float:left; color:#666666;  }
+.crumbsBar .selectItem span { float:left; height:8px; width:8px; margin:7px 0 0 5px; background: url(../Images/childredSprit.png) no-repeat -137px -459px; }
+.crumbsBar .selectItem:hover { background:#e60000; }
+.crumbsBar .selectItem:hover em{ color:#fff; }
+.crumbsBar .selectItem:hover span { background-position:-138px -473px; }
+.crumbsBar .selectItem.hover { background:#e60000; }
+.crumbsBar .selectItem.hover em{ color:#fff; }
+.crumbsBar .selectItem.hover span { background-position:-138px -473px; }
+.crumbsBar .clearSelect { line-height:20px; height:20px; border:1px solid #ccc; background:#f3f3f3; border-radius:3px; padding:0 4px; float:left; }
+.crumbsBar .clearSelect a { text-decoration:none; color:#333; }
+.crumbsBar .clearSelect:hover { border:1px solid #e60000; background:#fff; }
+.crumbsBar .clearSelect:hover a { color:#e60000; }
+
+
+/*筛选项目 css*/
+.selectorBar { margin-top:20px;  }
+.selectorBar .selectorCon { border:1px solid #f3f3f3; }
+.selectorBar .slectList { border-bottom:1px solid #e9e9e9; background:#f3f3f3; position:relative; }
+.selectorBar .slectList.discountItem  { border-bottom:none; }
+.selectorBar .selectTit { float:left; width:96px; line-height:40px; text-indent:22px; }
+.selectorBar .selectTit span { font-weight:bold; color:#333333; }
+.selectorBar .slectCon { float:left; width:1102px; background:#fff; height:40px; overflow:hidden;  }  
+.selectorBar .slectCon ul { overflow:hidden; padding-left:26px; max-width:910px; float:left; }
+.selectorBar .slectList.kindItem .slectCon ul  {  width:910px; }
+
+.selectorBar .slectCon ul li { float:left; line-height:40px; margin-right:37px;  }
+.selectorBar .slectList.kindItem .slectCon.on  { height:auto }
+.selectorBar .slectCon.on ul { padding-top:5px; }
+.selectorBar .slectCon.on ul li {  line-height:30px;}
+.selectorBar .slectCon ul li a { color:#666666; text-decoration:none; }
+.selectorBar .slectCon ul li a:hover { color:#e60000; }
+.selectorBar .slectList .selectSwitch { position:absolute; top:14px; right:17px;  }
+.selectorBar .slectList .selectSwitch a {overflow:hidden; color:#333; text-decoration:none; }
+.selectorBar .slectList .selectSwitch a .icon { float:right; width:9px; height:5px;  background: url(../Images/childredSprit.png) no-repeat -108px -490px; margin:5px 0 0 6px;}
+.selectorBar .slectList .selectSwitch a:hover { color:#e60000; }
+.selectorBar .slectList .selectSwitch a:hover .icon { color:#e60000; background: url(../Images/childredSprit.png) no-repeat -164px -490px; }
+.selectorBar .slectList .selectSwitch.on a { color:#333; }
+.selectorBar .slectList .selectSwitch.on a:hover { color:#e60000;  }
+.selectorBar .slectList .selectSwitch.on a .icon { background-position:-190px -490px; }
+.selectorBar .slectList .selectSwitch.on a:hover .icon { background-position:-125px -489px;}
+.selectorBar .slectCon .priceSet { float:left; overflow:hidden; width:208px; margin-top:11px; }
+.selectorBar .slectCon .priceSet .fl { float:left; width:67px; height:20px; }
+.selectorBar .slectCon .priceSet .fl i { color:#666666; margin-right:3px; }
+.selectorBar .slectCon .priceSet .fl .input-txt { font-family:'Microsoft YaHei'; border:1px solid #cccccc; width:50px; height:16px; vertical-align:middle; color:#666; background:#fff; text-indent:3px; line-height:18px; }
+.selectorBar .slectCon .priceSet .fl .input-txt:focus {border:1px solid #e60000;}
+.selectorBar .slectCon .priceSet em { float:left; margin:0 5px; color:#d3d3d3; line-height:20px; letter-spacing:0px;  }
+.selectorBar .slectCon .priceSet .confirmButton { float:left; margin-left:10px; line-height:18px; }
+.selectorBar .slectCon .priceSet .confirmButton a { display:block; height:18px; padding:0 5px; border:1px solid #cccccc; border-radius:3px; background:#f3f3f3; text-decoration:none; }
+.selectorBar .slectCon .priceSet .confirmButton a:hover { border:1px solid #e60000; color:#e60000; background:#fff; } 
+/*排序css*/
+.sortBar { margin-top:20px; }
+.sortBar .sortInner { border-bottom:1px solid #e60000; }
+.sortBar .sortNav { float:left; }
+.sortBar .sortNav ul { overflow:hidden; height:28px; overflow:hidden;  padding-left:1px; }
+.sortBar .sortNav ul li { float:left; display:inline;text-align:center; }
+.sortBar .sortNav ul li a {display:block;  border:1px solid #e9e9e9; width:68px; margin: 0 0 -1px -1px; height:26px; line-height:26px;  height:26px;  border-radius:5px 5px 0 0;  color:#666666;  text-decoration:none; position: relative; z-index: 0;  }
+.sortBar .sortNav ul li a:hover { color:#e60000; }
+.sortBar .sortNav ul li.on a{  border:1px solid #e60000; background:#e60000;  color:#fff; }  
+.sortBar .sortNav ul li a i { position:relative; padding-right:11px;}
+.sortBar .sortNav ul li.saleNum a i { padding-right:0px; }
+.sortBar .sortNav ul li a .icon { position:absolute; width:7px;height:11px;  right:0; top:2px;  background: url(../Images/childredSprit.png) no-repeat -268px -419px; }
+.sortBar .sortNav ul li a:hover .icon {  background: url(../Images/childredSprit.png) no-repeat -278px -419px; }
+.sortBar .sortNav ul li.on a .up {background: url(../Images/childredSprit.png) no-repeat -287px -419px;}
+.sortBar .sortNav ul li.on a .down { background: url(../Images/childredSprit.png) no-repeat -296px -419px; }
+.sortBar .otherSort { float:left; margin-left:30px; }
+.sortBar .otherSort ul { overflow:hidden; }
+.sortBar .otherSort ul li { float:left; line-height:28px; margin-right:15px; }
+.sortBar .otherSort ul li a { overflow:hidden; color:#e60000; text-decoration:none; }
+.sortBar .otherSort ul li a:hover { color:#e60000; }
+.sortBar .otherSort ul li a span { float:left; width:12px; height:12px;  margin:8px 6px 0 0;background: url(../Images/childredSprit.png) no-repeat -99px -442px;  }
+.sortBar .otherSort ul li.on a:hover span{ background-position:-73px -442px; }
+.sortBar .otherSort ul li.on a { color:#e60000; }
+.sortBar .otherSort ul li.on span {background: url(../Images/childredSprit.png) no-repeat -86px -442px;  }
+.sortBar .otherSort ul li.on a:hover span {background: url(../Images/childredSprit.png) no-repeat -86px -442px;  }
+.sortBar .sortRight { float:right; overflow:hidden; padding-top:4px; }
+.sortBar .styleSwitch { float:left;  }
+.sortBar .styleSwitch ul { overflow:hidden;}
+.sortBar .styleSwitch ul li { float:left; margin-right:10px; }
+.sortBar .styleSwitch ul li a { overflow:hidden; line-height:20px; color:#666; } 
+.sortBar .styleSwitch ul li.on a { color:#e60000; }
+.sortBar .styleSwitch ul li a:hover {  color:#e60000; }
+.sortBar .styleSwitch ul li a span { float:left; height:21px; width:21px;  display:inline; margin-right:5px; }
+.sortBar .styleSwitch ul li.big a span {background: url(../Images/childredSprit.png) no-repeat -90px -460px; }
+.sortBar .styleSwitch ul li.big.on a span {background: url(../Images/childredSprit.png) no-repeat -46px -460px; }
+.sortBar .styleSwitch ul li.big a:hover span{ background: url(../Images/childredSprit.png) no-repeat -46px -460px; }
+.sortBar .styleSwitch ul li.list a span {background: url(../Images/childredSprit.png) no-repeat -68px -460px; }
+.sortBar .styleSwitch ul li.list.on a span {background: url(../Images/childredSprit.png) no-repeat -113px -460px; }
+.sortBar .styleSwitch ul li.list a:hover span {background: url(../Images/childredSprit.png) no-repeat -113px -460px; }
+.sortBar .styleSwitch ul li a i { float:left; display:inline; }
+.sortBar .topPage { float:left; overflow:hidden; }
+.sortBar .topPage .fp-text { float:left; line-height:20px; font-family:Arial; color:#333; }
+.sortBar .topPage .fp-text b { color:#e60000; }
+.sortBar .topPage a { float:left; width:21px; height:21px; text-indent:-999px; overflow:hidden; }
+.sortBar .topPage a.prevPage { background: url(../Images/childredSprit.png) no-repeat -265px -460px; margin-right:3px; }
+.sortBar .topPage a.nextPage { background: url(../Images/childredSprit.png) no-repeat -288px -460px; }
+.sortBar .topPage a.prevPage:hover {  background: url(../Images/childredSprit.png) no-repeat -265px -437px; }
+.sortBar .topPage a.nextPage:hover {  background: url(../Images/childredSprit.png) no-repeat -288px -437px;}
+/*列表样式*/
+.container { margin-top:18px; }
+.listMain .listLeft { float:left; width:953px;  }
+.listMain .listLeft .bookList li { border:1px solid #fff; padding:20px 30px 20px 20px; overflow:hidden;border-bottom:1px solid #e9e9e9;  }
+.listMain .listLeft .bookList li:hover { border:1px solid #e9e9e9; outline:1px solid #e9e9e9; }
+.listMain .listLeft .bookList li .cover { height:200px; width:200px; float:left; display:inline; margin-right:20px; text-align:center; }
+.listMain .listLeft .bookList li .cover a img { max-height:200px; max-width:200px; }
+.listMain .listLeft .bookList li .infor { float:left; width:672px; }
+.listMain .listLeft .bookList li .infor h2 { height:18px; overflow:hidden; font-weight:normal;  line-height:16px; }
+.listMain .listLeft .bookList li .infor h2 a {color:#0080cc;  font-size:14px; text-decoration:none;}
+.listMain .listLeft .bookList li .infor h2 a:hover { color:#e60000; }
+.listMain .listLeft .bookList li .infor .otherInfor { margin-top:6px; height:26px; overflow:hidden; line-height:26px; color:#666; }
+.listMain .listLeft .bookList li .infor .otherInfor a { color:#999; float:left;  }
+.listMain .listLeft .bookList li .infor .otherInfor a:hover { color:#e60000; }
+.listMain .listLeft .bookList li .infor .otherInfor span { float:left;  }
+.listMain .listLeft .bookList li .infor .otherInfor i {  float:left; margin:0 2px 0 7px;}
+.listMain .listLeft .bookList li .infor .priceWrap { height:30px; line-height:30px; vertical-align:bottom; }
+.listMain .listLeft .bookList li .infor .priceWrap span { float:left; display:inline; }
+.listMain .listLeft .bookList li .infor .priceWrap span.sellPrice { font-size:18px; color:#e60000; margin-right:10px; font-family:'Microsoft YaHei'; }
+.listMain .listLeft .bookList li .infor .priceWrap span.discount { color:#666;font-family:'Microsoft YaHei'; margin-right:15px; }
+.listMain .listLeft .bookList li .infor .priceWrap span.priceTit { font-family:'Microsoft YaHei'; margin-top:2px;  margin-right:2px; color:#999;}
+.listMain .listLeft .bookList li .infor .priceWrap del {font-family:'Microsoft YaHei';   margin-top:1px; color:#999; float:left; }
+.listMain .listLeft .bookList li .infor .activeIcon { overflow:hidden; height:20px; margin-top:7px; }
+.listMain .listLeft .bookList li .infor .activeIcon a { text-decoration:none; float:left; height:20px; padding:0 6px; border-radius:3px; line-height:20px; color:#fff; text-align:center; display:inline; margin-right:10px; }
+.listMain .listLeft .bookList li .infor .recoLagu { line-height:22px; color:#666666; margin-top:10px; }
+.listMain .listLeft .bookList li .infor .oparateButton { overflow:hidden; margin-top:10px; }
+.listMain .listLeft .bookList li .infor .oparateButton a { float:left; }
+.listMain .listLeft .bookList li .infor .oparateButton .buyButton {  line-height:30px; text-indent:30px; color:#fff; text-decoration:none; width:100px; height:30px;background: url(../Images/childredSprit.png) no-repeat -164px -452px; margin-right:10px; }
+.listMain .listLeft .bookList li .infor .oparateButton .buyButton:hover { background: url(../Images/childredSprit.png) no-repeat -164px -418px;   }
+.listMain .listLeft .bookList li .infor .oparateButton .collectBtn { border:1px solid #999; height:28px; border-radius:5px; color:#999; line-height:28px; text-align:center; width:48px; text-decoration:none;  }
+.listMain .listLeft .bookList li .infor .oparateButton .collectBtn:hover { background:#ffe5e5; color:#e60000;  border:1px solid #e60000;}
+/*大图样式*/
+.listMain .listLeft .bookBig ul { overflow:hidden;  }
+.listMain .listLeft .bookBig li { float:left; width:200px; height:350px; padding:16px 17px 0;  border:2px solid #fff; margin-bottom:10px;  }
+.listMain .listLeft .bookBig li:hover { border:2px solid #e9e9e9; }
+.listMain .listLeft .bookBig li .cover { height:200px; text-align:center; padding-bottom:5px;  }
+.listMain .listLeft .bookBig li .cover a img { max-height:200px; max-width:200px; }
+.listMain .listLeft .bookBig li .infor  { overflow:hidden; }
+.listMain .listLeft .bookBig li .priceWrap { height:24px; line-height:24px; overflow:hidden; vertical-align:middle; }
+.listMain .listLeft .bookBig li .priceWrap .sellPrice { float:left; font-size:18px; font-family:'Microsoft YaHei'; color:#e60000; margin-right:10px;  }
+.listMain .listLeft .bookBig li .priceWrap .discount { float:left;  height:16px; color:#666; line-height:16px;  text-align:center; margin-top:5px; font-family:Arial; }
+.listMain .listLeft .bookBig li .priceWrap .price { float:right; color:#999; margin-top:3px; }
+.listMain .listLeft .bookBig li .name { height:22px; overflow:hidden; line-height:22px; font-weight:normal; }
+.listMain .listLeft .bookBig li .name a { color:#333; text-decoration:none;  font-size:12px; display:block; }
+.listMain .listLeft .bookBig li .name a:hover  { color:#e60000; }
+.listMain .listLeft .bookBig li .otherInfor { height:22px; overflow:hidden; line-height:22px; }
+.listMain .listLeft .bookBig li .otherInfor a { color:#999;text-decoration:none;  }
+.listMain .listLeft .bookBig li .otherInfor a.author { float:left;   max-width:120px; overflow:hidden;word-wrap:break-word }
+.listMain .listLeft .bookBig li .otherInfor a:hover  { color:#e60000; }
+.listMain .listLeft .bookBig li .activeIcon {  overflow:hidden; padding:5px 0; height:20px; }
+.listMain .listLeft .bookBig li .activeIcon a {float:left; margin-right:5px; color:#fff;text-decoration:none; background:#e60000; height:20px; line-height:20px; padding:0 6px; border-radius:3px; }
+.listMain .listLeft .bookBig li .activeIcon a:hover  { color:#fff; }
+.listMain .listLeft .bookBig li .oparateButton { overflow:hidden; padding-top:5px; }
+.listMain .listLeft .bookBig li .oparateButton a { float:left; }
+.listMain .listLeft .bookBig li .oparateButton .buyButton { height:20px; line-height:20px; border:1px solid #ff1a1a; border-radius:3px; width:68px; text-align:center; color:#ff1a1a; text-decoration:none; margin-right:10px; }
+.listMain .listLeft .bookBig li .oparateButton .buyButton:hover { background:#ffe5e5; }
+.listMain .listLeft .bookBig li .oparateButton .collectBtn { height:20px; line-height:20px; border:1px solid #999; border-radius:3px; width:33px; text-align:center; color:#999; text-decoration:none; margin-right:10px; }
+.listMain .listLeft .bookBig li .oparateButton .collectBtn:hover { background:#ffe5e5; color:#e60000; border:1px solid #e60000; }
+/*右侧*/
+.listMain .listRight { float:right; width:230px;}
+/*本类畅销书*/
+.listMain .listRight .hotBook { border:1px solid #e9e9e9;  }
+.listMain .listRight .hotBook h2 { height:53px; line-height:53px; border-bottom:1px solid #e9e9e9; background:#f3f3f3; text-indent:15px; color:#333333; font-size:16px; font-family:'Microsoft YaHei';font-weight:normal; }
+.listMain .listRight .hotBook ul { padding:0 15px; }
+.listMain .listRight .hotBook ul li { border-bottom:1px solid #e6e6e6; padding-bottom:4px; }
+.listMain .listRight .hotBook ul li:last-child { border-bottom:none; }
+.listMain .listRight .hotBook ul li.last { border-bottom:none; }
+.listMain .listRight .hotBook ul li .cover { padding:15px 20px 10px; height:158px; text-align:center; }
+.listMain .listRight .hotBook ul li .cover a img { max-height:158px; max-width:158px;  }
+.listMain .listRight .hotBook ul li .infor .name { height:22px; overflow:hidden; line-height:22px; font-weight:normal;  }
+.listMain .listRight .hotBook ul li .infor .name a { color:#333333; text-decoration:none; }
+.listMain .listRight .hotBook ul li .infor .name a:hover { color:#e60000; }
+.listMain .listRight .hotBook ul li .infor .author { height:22px; line-height:22px; overflow:hidden; }
+.listMain .listRight .hotBook ul li .infor .author span { color:#666666; }
+.listMain .listRight .hotBook ul li .infor .priceWrap { overflow:hidden; height:25px; line-height:25px; }
+.listMain .listRight .hotBook ul li .infor .priceWrap .sellPrice { float:left; color:#e60000;  font-size:15px; font-family:'Microsoft YaHei'; margin-right:6px; }
+.listMain .listRight .hotBook ul li .infor .priceWrap .price { float:left; color:#999;font-family:'Microsoft YaHei'; }
+/*本类新书*/
+.listMain .listRight .newBook { border:1px solid #e9e9e9; margin-top:20px; }
+.listMain .listRight .newBook h2 { height:53px; line-height:53px; border-bottom:1px solid #e9e9e9; background:#f3f3f3; text-indent:15px; color:#333333; font-size:16px; font-family:'Microsoft YaHei';font-weight:normal; }
+.listMain .listRight .newBook ul { padding:0 15px; }
+.listMain .listRight .newBook ul li { border-bottom:1px solid #e6e6e6; padding-bottom:4px; }
+.listMain .listRight .newBook ul li:last-child { border-bottom:none; }
+.listMain .listRight .newBook ul li .cover { padding:15px 20px 10px; height:158px; text-align:center; }
+.listMain .listRight .newBook ul li .cover a img { max-height:158px; max-width:158px;  }
+.listMain .listRight .newBook ul li .infor .name { height:22px; overflow:hidden; line-height:22px; font-weight:normal;  }
+.listMain .listRight .newBook ul li .infor .name a { color:#333333; text-decoration:none; }
+.listMain .listRight .newBook ul li .infor .name a:hover { color:#e60000; }
+.listMain .listRight .newBook ul li .infor .author { height:22px; line-height:22px; overflow:hidden; }
+.listMain .listRight .newBook ul li .infor .author span { color:#666666; }
+.listMain .listRight .newBook ul li .infor .priceWrap { overflow:hidden; height:25px; line-height:25px; }
+.listMain .listRight .newBook ul li .infor .priceWrap .sellPrice { float:left; color:#e60000;  font-size:15px; font-family:'Microsoft YaHei'; margin-right:6px; }
+.listMain .listRight .newBook ul li .infor .priceWrap .price { float:left; color:#999;font-family:'Microsoft YaHei'; }
+
+/*分页*/
+.pagination{width:953px;height: 30px;text-align: center; margin-top:30px; padding-bottom:30px; }
+.pagination .paging{position:relative;float:right;}
+.pagination ul{display:inline-block;*display:inline;zoom:1;margin:0 auto;position:relative;}
+.pagination ul li{float: left;width: 30px;height: 30px; margin-left: -1px;*position: relative;}
+.pagination ul li a{display: block;float: left;width: 28px; height: 28px;border:1px solid #dadada;line-height: 28px;font-family: Arial;font-size: 12px;color: #666;background:#fff;}
+.pagination ul li span{display: block;line-height: 24px;height: 30px; width:30px; font-family: tahoma,Arial;overflow: hidden;   }
+.pagination ul li a:hover,.pagination ul li.current a{background-color: #e60000;border-color: #e60000;color: #fff;text-decoration: none;}
+.pagination ul li.current a.current{ cursor: default;}
+.pagination ul li.prev,.pagination ul li.next{width: 68px;}
+.pagination ul li.prev { margin-right:10px;  }
+.pagination ul li.next{ margin-left:10px;}
+.pagination ul li.prev a,.pagination ul li.next a{display:block;width: 68px; background:#eaeaea;  }
+.pagination ul li.prev a:hover,.pagination ul li.next a:hover{ border-color: #e60000;background-color: #e60000; color:#fff; }
+/*筛选结果提示*/
+
+.seletNoticeWrap { margin-top:20px;}
+.seletNoticeWrap .seletNotice { background:#f3f3f3; position:relative;  border:1px solid #e9e9e9; padding:25px 50px 25px 80px;  }
+.seletNoticeWrap .seletNotice i.icon { position:absolute; height:40px; width:40px; background: url(../Images/childredSprit.png) no-repeat -288px -94px; left:20px; top:50%; margin-top:-20px; }
+.seletNoticeWrap .seletNotice { line-height:30px;   }
+.seletNoticeWrap .seletNotice span { font-size:14px; font-weight:bold; color:#333; }
+.seletNoticeWrap .seletNotice a { display:block; color:#e60000; text-decoration:underline; }
+
+/*本站常销*/
+.siteHot { margin-top:20px; }
+.siteHot .w1212 { width:1212px; margin:auto; }
+.siteHot .siteHotTitle {height: 47px; background: #e1f7ff;  border-bottom: 3px solid #07bafd; line-height: 47px;  width:1200px; margin:auto;   } 
+.siteHot .siteHotTitle h2 { text-indent:18px; font-size:22px; font-weight:normal; color:#333; font-family:'Microsoft YaHei';  }
+.siteHot .siteHotCon .siteHotPannel {  overflow:hidden; }
+.siteHot .siteHotCon ul { overflow:hidden;  width:1212px; }
+.siteHot .siteHotCon ul li { float:left; height:291px; width:186px; border:2px solid #fff; display:inline; margin:10px 6px 0; }
+.siteHot .siteHotCon ul li:hover { border:2px solid #f5f5f5; }
+.siteHot .siteHotCon ul li .bookCover { height:158px; margin-top:10px; text-align:center;    }
+.siteHot .siteHotCon ul li .bookCover a { display:block; }
+.siteHot .siteHotCon ul li .bookCover a img { max-height:158px; max-width:158px; }
+.siteHot .siteHotCon ul li .bookName { width:150px; padding:0 20px; line-height:18px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; margin-top:15px;  }
+.siteHot .siteHotCon ul li .bookName a { font-size:12px;font-weight:400; color:#333; text-decoration:none; }
+.siteHot .siteHotCon ul li .bookName a:hover { color:#e60000;}
+.siteHot .siteHotCon ul li .bookAuthor { margin-top:2px; color:#666; width:150px; padding:0 20px; height:18px; line-height:18px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; }
+.siteHot .siteHotCon ul li .priceWrap { margin-top:4px;  width:150px; padding:0 20px; overflow:hidden;line-height:16px; }
+.siteHot .siteHotCon ul li .priceWrap .salePrice { float:left; color:#e60000; font-size:15px; font-family:"Microsoft YaHei"; }
+.siteHot .siteHotCon ul li .priceWrap .price { line-height:18px; margin-left:7px; float:left; color:#999999; text-decoration-line:line-through; }
+
+.siteHot .siteHotCon ul li  .buyButton { margin-top:6px;  overflow:hidden;  }
+.siteHot .siteHotCon ul li  .buyButton a { margin:2px auto 0; display:block; width:158px; height:26px; line-height:26px; text-align:center; background:#e1f7ff; color:#666666; text-decoration:none;  }
+.siteHot .siteHotCon ul li  .buyButton a:hover { width:118px; height:28px;  background:#e60000; color:#ffffff; margin-top:0; line-height:28px; }
+
+/*侧导航*/
+.siderbar { position:fixed;  bottom:10px; right:0;  width:51px; z-index:997; background:#fff }
+.siderbar ul li {  border:2px solid #a39898; border-bottom:none;  position:relative;  }
+.siderbar ul li>a { color:#666; line-height:16px; display:block; padding:4px 6px;  text-decoration:none;}
+.siderbar ul li.nextStyle {  border-top-color:#e60000; }
+.siderbar ul li .shareTit { display:block; line-height:22px;padding: 4px 6px 0; text-align:center; }
+.siderbar ul li .shareTit span { display:block; width:17px; height:14px;background: url(../Images/childredSprit.png) no-repeat -25px -424px; margin:auto; }
+.siderbar ul li:hover .shareTit span { background: url(../Images/childredSprit.png) no-repeat 0 -424px;   }
+.siderbar ul li .weixinTit { display:block; line-height:22px;padding: 4px 6px 0; text-align:center; }
+.siderbar ul li .weixinTit span { display:block; width:20px; height:16px;background: url(../Images/childredSprit.png) no-repeat -25px -463px; margin:auto; }
+.siderbar ul li:hover .weixinTit span { background: url(../Images/childredSprit.png) no-repeat 0 -463px;   }
+.siderbar ul li .weixinWrap  {position:absolute;  left:-109px; width:109px;  display:none; top:-25px;   text-align:center; }
+.siderbar ul li .weixinWrap .weixinWrapInner {width:94px; height:110px;  background:#ffffff; border:2px solid #a39898; color:#666; position:relative; }
+.siderbar ul li .weixinWrap .weixinWrapInner:hover { color:#e60000; }
+.siderbar ul li .weixinWrap .weixinWrapInner span.icon { position:absolute; width:10px; height:15px; top:40px;right:-10px; background: url(../Images/childredSprit.png) no-repeat 0 -485px; }
+.siderbar ul li .weixinWrap img { width:100%;}
+.siderbar ul li .shareWrap { position:absolute; left:-165px; display:none; top:-2px; width:151px; border:2px solid #a39898; height:40px; background:#ffffff; border-right:none; padding-left:10px; } 
+.siderbar ul li:hover .shareWrap { display:block; }
+.siderbar ul li:hover .weixinWrap { display:block; }
+.siderbar ul li .shareWrap a { float:left; display:inline; margin: 8px 5px 8px 0 }
+.siderbar ul li:hover { background:#e60000;  border-color:#e60000; }
+.siderbar ul li:hover a { color:#fff; }
+.siderbar .backtop a { text-indent:-999px; background:#a39898; overflow:hidden; display:block; height:24px; overflow:hidden; }
+.siderbar .backtop a span { display:block; width:20px; height:14px; margin:auto;  background: url(../Images/childredSprit.png) no-repeat -24px -441px; margin-top:6px;  }
+.siderbar .backtop a:hover span { background: url(../Images/childredSprit.png) no-repeat 0 -441px; }
+
+/*弹框css*/
+.kindPop { border:none; border-radius:5px; }
+.kindPop .popTitle { background:#fff; position:relative; height:14px; }
+.kindPop .popContent { text-align:center; }
+.kindPop .text { display:none; }
+.kindPop .close { margin:0px; right:6px; height:8px; line-height:8px; top:8px; }
+.kindPop .dialogContent { text-align:center; margin-top:10px; }
+.kindPop .txt_02 { font-size:16px; font-weight:normal; padding-left:30px;  font-family:'Microsoft YaHei'; color:#333; position:relative; }
+.kindPop .txt_02 span.warnIcon { width:20px; height:19px; left:0; position:absolute;background: url(../Images/childredSprit.png) no-repeat -131px -421px;}
+.kindPop .dialogContent a { display:block; margin-top:23px; color:#0080cc; text-decoration:underline; }
+.kindPop .dialogContent a:hover {color:#e60000; }
+.kindPop .txt_01 { font-size:16px; font-weight:normal;   font-family:'Microsoft YaHei'; color:#333; }
+
+

@@ -1,0 +1,423 @@
+﻿.content { z-index: 7; overflow: hidden; }
+.kindBanner { margin-top: 10px; width:1200px; margin:0 auto;}
+.category-content .category { display: none; }
+/*banner CSS */
+.kindBanner { margin-top: 10px; }
+/*面包屑css*/
+.crumbsBar { margin-top: 9px; padding-bottom: 9px; }
+.crumbsBar .crumbsNav { }
+.crumbsBar .crumsItem { float: left; line-height: 22px; }
+.crumbsBar .crumsItem a { color: #666666; text-decoration: none; }
+.crumbsBar .crumsItem a:hover { color: #e60000; }
+.crumbsBar .crumsItem span { color: #666666; }
+.crumbsBar i { float: left; width: 5px; height: 9px; text-indent: -999px; overflow: hidden; background: url(../Images/childredSprit.png) no-repeat -152px -472px; margin: 6px 7px 0 10px; }
+/*缺货*/
+.unavailableWrap { background: #f3f3f3; margin-bottom: 20px; }
+.unavailableWrap dl { overflow: hidden; padding-bottom: 11px; }
+.unavailableWrap dl dt { line-height: 22px; color: #333; padding-left: 80px; position: relative; margin-top: 18px; }
+.unavailableWrap dl dt span { position: absolute; height: 40px; width: 40px; background: url(../Images/childredSprit.png) no-repeat -288px -94px; left: 20px; top: 50%; margin-top: -20px; }
+.unavailableWrap dl dd { line-height: 30px; padding-left: 80px; margin-top: 23px; }
+.unavailableWrap dl dd p a { color: #014f7d; }
+.unavailableWrap dl dd p a:hover { text-decoration: underline; }
+.unavailableWrap dl dd p span { color: #e60000; }
+/*图书详情*/
+.bookInfoWrap .bookDetaiWrap { float: left; display: inline; width: 940px; overflow: hidden; }
+.bookInfoWrap .bookDetaiWrap .bookCover { display: inline; float: left; margin-right: 20px; padding-bottom: 16px; width: 350px; }
+.bookInfoWrap .bookDetaiWrap .bookCover .coverImg { padding: 24px; border: 1px solid #dbdbdb; height: 300px; width: 300px; text-align: center; position: relative; }
+.bookInfoWrap .bookDetaiWrap .bookCover .coverImg .bookCoverImg { max-height: 300px; max-width: 300px; }
+.bookInfoWrap .bookDetaiWrap .bookCover #popbigpic { cursor: pointer; }
+.bookInfoWrap .bookDetaiWrap .bookCover .coverImg .activeIcon { position: absolute; top: 10px; right: 10px; }
+.bookInfoWrap .bookDetaiWrap .bookCover .bigIconTip { position: absolute; width: 20px; height: 21px; background: url(/Images/childredSprit.png) no-repeat -296px -236px; bottom: 10px; right: 10px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo { float: right; width: 570px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .padLeft10 { padding-left: 10px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo h1 { line-height: 24px; margin-top: 7px; font-family: 'Microsoft YaHei'; font-size: 18px; color: #333333; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .recomand { line-height: 24px; height: 20px; color: #e60000; margin-top: 7px; overflow: hidden; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .author { overflow: hidden; line-height: 24px; margin-top: 7px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .author span { float: left; color: #666; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .author a { float: left; color: #024f7d; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .author em { float: left; color: #024f7d; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .publisher { overflow: hidden; line-height: 24px; margin-top: 3px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .publisher span { float: left; color: #666; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .publisher a { float: left; color: #024f7d; margin-right: 32px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .publisher em { float: left; color: #024f7d; margin-right: 32px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .publisher i { float: left; color: #666; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .series { overflow: hidden; line-height: 24px; margin-top: 3px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .series span { float: left; color: #666; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .series a { float: left; color: #024f7d; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .series em { float: left; color: #024f7d; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .startWrap { overflow: hidden; height: 24px; line-height: 24px; margin-top: 3px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .startWrap span { float: left; color: #666; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .startWrap em { float: left; color: #ff6c00; margin-right: 9px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .startWrap i { float: left; background: url(../Images/homeindex.png) no-repeat -17px -386px; height: 13px; width: 13px; margin: 6px 3px 0 0; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .startWrap i.one { background-position: 0px -386px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .startWrap i.half { background-position: -33px -386px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .startWrap a { float: left; color: #ff6c00; margin-left: 8px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .sort { height: 24px; overflow: hidden; line-height: 24px; margin-top: 3px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .sort span { float: left; color: #666; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .sort a { float: left; color: #024f7d; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .sort b { float: left; margin-left: 7px; color: #666; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .sort b i { color: #e60000; margin: 0 7px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .priceWrap { margin-top: 15px; background: #fff4f8; padding: 10px 0 10px 10px; height: 28px; line-height: 28px; overflow: hidden; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .priceWrap span { float: left; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .priceWrap .sellPriceTit { color: #666; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .priceWrap .sellPrice { color: #e60000; font-size: 18px; font-family: 'Microsoft YaHei'; margin-left: 10px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .priceWrap .sellPrice i { font-size: 14px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .priceWrap .discount { float: left; color: #666666; margin-left: 10px; margin-top: 3px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .priceWrap .priceTit { float: left; color: #666666; margin-left: 10px; margin-top: 3px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .priceWrap del { float: left; color: #666666; margin-top: 3px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .priceWrap a { float: left; color: #024f7d; margin-left: 13px; margin-top: 3px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .activeIcon { background: #fff4f8; overflow: hidden; padding: 0px 0 15px 10px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .activeIcon .activeTit { float: left; color: #666; margin-right: 10px; line-height: 20px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .activeIcon a { float: left; margin-right: 5px; color: #fff; text-decoration: none; background: #e60000; height: 20px; line-height: 20px; padding: 0 6px; border-radius: 3px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .activeIcon a:hover { color: #fff; }
+.listMain .listLeft .bookBig li .activeIcon { overflow: hidden; padding: 5px 0; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton { overflow: hidden; padding: 15px 0 10px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton a { float: left; height: 35px; margin-right: 10px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .stockoutsBut { width: 160px; line-height: 35px; text-indent: 61px; color: #333333; font-size: 16px; font-family: 'Microsoft YaHei'; background: url(../Images/childredSprit.png) no-repeat -335px -418px; text-decoration: none; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .stockoutsBut:hover { background: url(../Images/childredSprit.png) no-repeat -335px -456px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .buyButton { width: 160px; line-height: 32px; text-indent: 45px; color: #fff; font-size: 16px; font-family: 'Microsoft YaHei'; background: url(../images/childredSprit.png) no-repeat -335px -262px; text-decoration: none; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .buyButton:hover { background: url(../images/childredSprit.png) no-repeat -335px -302px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .collectBtn { border: 1px solid #e60000; border-radius: 5px; height: 33px; line-height: 33px; text-align: center; width: 88px; line-height: 32px; color: #e60000; text-decoration: none; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .collectBtn:hover { background: #ffe5e5; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .freightPolicyWrap { float: left; margin-left: 5px; position: relative; cursor: pointer; position: relative; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .freightPolicyWrap span { display: block; height: 35px; line-height: 34px; color: #666666; position: relative; padding-right: 14px; width: 62px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .freightPolicyWrap span i.icon { height: 13px; width: 13px; background: url(../Images/childredSprit.png) no-repeat -289px -311px; right: 1px; top: 11px; position: absolute; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .freightPolicyWrap .freightCon { width: 210px; padding-left: 8px; position: absolute; left: 75px; top: -5px; display: none; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .freightPolicyWrap:hover .freightCon { display: block; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .freightPolicyWrap .freightCon .reightPolicy { border: 1px solid #e9e9e9; line-height: 16px; color: #999999; padding: 3px 0 3px 10px; position: relative; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .oparateButton .freightPolicyWrap .freightCon .reightPolicy i.icon { position: absolute; width: 4px; height: 6px; left: -4px; top: 50%; margin-top: -3px; background: url(../Images/childredSprit.png) no-repeat -303px -313px; }
+.bookInfoWrap .bookDetaiWrap .bookInfo .buyTip { line-height: 22px; color: #999999; line-height: 22px; margin-top: 10px; }
+.bookInfoWrap .fiveStartWrap { float: right; width: 230px; }
+.bookInfoWrap .fiveStartWrap .fiveStart { border: 1px solid #eaeaea; }
+.bookInfoWrap .fiveStartWrap .fiveStart .fiveStartTit { background: #f3f3f3; height: 53px; overflow: hidden; border-bottom: 1px solid #e9e9e9; }
+.bookInfoWrap .fiveStartWrap .fiveStart .fiveStartTit span { color: #333; font-size: 16px; float: left; height: 53px; line-height: 52px; margin-left: 15px; font-family: 'Microsoft YaHei'; }
+.bookInfoWrap .fiveStartWrap .fiveStart .fiveStartTit .hd { float: right; margin-right: 10px; height: 21px; margin-top: 16px; }
+.bookInfoWrap .fiveStartWrap .fiveStart .fiveStartTit .hd a { float: left; height: 21px; width: 21px; background: url(../Images/childredSprit.png) no-repeat -363px -202px; }
+.bookInfoWrap .fiveStartWrap .fiveStart .fiveStartTit .hd a.prev { margin-right: 3px; background-position: -363px -202px; }
+.bookInfoWrap .fiveStartWrap .fiveStart .fiveStartTit .hd a.prev:hover { background-position: -339px -202px; }
+.bookInfoWrap .fiveStartWrap .fiveStart .fiveStartTit .hd a.next { background-position: -411px -202px; }
+.bookInfoWrap .fiveStartWrap .fiveStart .fiveStartTit .hd a.next:hover { background-position: -387px -202px; }
+.bookInfoWrap .fiveStartWrap .fiveStart .fiveStartCon { height: 296px; overflow: hidden; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li { position: relative; border-bottom: 1px solid #eaeaea; padding-left: 10px; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li em { position: absolute; width: 4px; height: 6px; right: 10px; text-indent: -999px; overflow: hidden; top: 13px; background: url(../Images/childredSprit.png) no-repeat 0 -343px; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li p { height: 32px; line-height: 32px; color: #333333; padding-right: 20px; overflow: hidden; cursor: pointer; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li.cur p { display: none; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li.cur em { display: none; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur { display: none; overflow: hidden; padding: 6px 0; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur .bpic { margin-right: 5px; float: left; width: 85px; height: 85px; display: inline; text-align: center; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur .bpic img { max-width: 85px; max-height: 85px; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur .bDetai { float: left; width: 110px; overflow: hidden; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur .bDetai .bName { margin-top: 8px; line-height: 14px; height: 28px; overflow: hidden; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur .bDetai .bName a { text-decoration: none; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur .bDetai .bName a:hover { color: #e60000; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li.cur .bookCur { display: block; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur .bDetai .startWrap { overflow: hidden; height: 21px; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur .bDetai .startWrap i { float: left; background: url(../Images/homeindex.png) no-repeat -17px -386px; height: 13px; width: 13px; margin: 4px 3px 0 0; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur .bDetai i.one { background-position: 0px -386px; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur .bDetai i.half { background-position: -33px -386px; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur .bPrice { overflow: hidden; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur .bPrice .sellPrice { float: left; color: #e60000; font-family: "Microsoft YaHei"; }
+.bookInfoWrap .fiveStartWrap .fiveStart ul li .bookCur .bPrice .price { float: left; color: #999999; text-decoration-line: line-through; font-family: "Microsoft YaHei"; margin-left: 7px; }
+/*详情主要部分*/
+.bookMainCon { margin-top: 25px; }
+.bookRight { float: right; width: 980px; }
+.bookRight .otherBuyWrap { border: 1px solid #e9e9e9; margin-bottom: 20px; }
+.bookRight .otherBuyWrap .tit { border-bottom: 1px solid #e9e9e9; height: 53px; line-height: 52px; text-indent: 20px; background: #f3f3f3; }
+.bookRight .otherBuyWrap .tit span { color: #333; font-size: 16px; font-family: 'Microsoft YaHei'; }
+.bookRight .otherBuyWrap .con { position: relative; }
+.bookRight .otherBuyWrap .con .conanimate { padding: 0 9px; position: relative; overflow: hidden; }
+.bookRight .otherBuyWrap .con ul { overflow: hidden; width: 1920px; }
+.bookRight .otherBuyWrap .con ul li { float: left; width: 172px; display: inline; height: 258px; margin: 0 10px; }
+.bookRight .otherBuyWrap .con ul li .cover { padding: 30px 0 5px; text-align: center; }
+.bookRight .otherBuyWrap .con ul li .cover img { max-width: 130px; max-height: 130px; }
+.bookRight .otherBuyWrap .con ul li .infor { padding: 0 10px; }
+.bookRight .otherBuyWrap .con ul li .infor h3 { height: 22px; line-height: 22px; overflow: hidden; font-weight: normal; }
+.bookRight .otherBuyWrap .con ul li .infor h3 a { color: #333333; text-decoration: none; }
+.bookRight .otherBuyWrap .con ul li .infor h3 a:hover { color: #e60000; }
+.bookRight .otherBuyWrap .con ul li .infor .author { height: 22px; line-height: 22px; overflow: hidden; }
+.bookRight .otherBuyWrap .con ul li .infor .author span { color: #666666; }
+.bookRight .otherBuyWrap .con ul li .priceWrap { height: 22px; line-height: 22px; overflow: hidden; font-family: 'Microsoft YaHei'; }
+.bookRight .otherBuyWrap .con ul li .sellPrice { float: left; font-size: 15px; color: #e60000; margin-right: 6px; }
+.bookRight .otherBuyWrap .con ul li .price { float: left; color: #999; }
+.bookLeft { float: left; width: 200px; }
+.bookRight .otherBuyWrap .con .arrow { position: absolute; width: 27px; height: 38px; top: 66px; cursor: pointer; z-index: 3; display: none; }
+.bookRight .otherBuyWrap .con:hover .arrow { display: block; }
+.bookRight .otherBuyWrap .con .prev { left: 2px; background: url(../Images/homeindex.png) no-repeat -73px -38px; background-color: #000; background-color: rgba(0,0,0,0.35); }
+.bookRight .otherBuyWrap .con .next { right: 2px; background: url(../Images/homeindex.png) no-repeat -73px 0px; background-color: #000; background-color: rgba(0,0,0,0.35); }
+.channelKind .arrow:hover { background-color: rgba(0,0,0,0.2); }
+/*商品详情*/
+.bookRight .tabBox { }
+.bookRight .tabBox.fixed { padding-top: 55px; }
+.bookRight .tabBox.fixed .tabTitPanel { position: fixed; width: 100%; top: 0px; left: 0px; z-index: 700; }
+.bookRight .tabBox.fixed .tabTitPanel .tabTitPanelInner { width: 1200px; margin: auto; }
+.bookRight .tabBox .tabTitPanel .tabTitPanelInner .shadow { box-shadow: 0px 3px 30px #ddd; background: #fff; }
+.bookRight .tabBox.fixed .tabTitPanel .tabTitPanelInner .shadow { margin-left: 220px; }
+.bookRight .tabBox .tabTitPanel ul { float: left; overflow: hidden; }
+.bookRight .tabBox .tabTitPanel ul li { float: left; width: 180px; height: 55px; line-height: 55px; text-align: center; }
+.bookRight .tabBox .tabTitPanel ul li a { display: block; text-decoration: none; height: 55px; color: #3b3b3b; font-size: 15px; font-family: 'Microsoft YaHei'; }
+.bookRight .tabBox .tabTitPanel ul li a span { border-top: 4px solid #3b3b3b; display: block; height: 51px; width: 113px; margin: auto; }
+.bookRight .tabBox .tabTitPanel ul li.current { background: #3b3b3b; }
+.bookRight .tabBox .tabTitPanel ul li.current a { color: #fff; }
+.bookRight .tabBox .tabTitPanel .oparaBookBut { float: right; overflow: hidden; margin-right: 7px; }
+.bookRight .tabBox .tabTitPanel .oparaBookBut span { float: left; color: #e60000; font-size: 14px; font-family: 'Microsoft YaHei'; height: 50px; line-height: 55px; margin-right: 10px; }
+.bookRight .tabBox .tabTitPanel .oparaBookBut a.buyButton { float: left; height: 30px; width: 100px; line-height: 30px; text-indent: 30px; color: #fff; text-decoration: none; background: url(../Images/childredSprit.png) no-repeat -335px -228px; margin-top: 12px; }
+.bookRight .tabBox .tabTitPanel .oparaBookBut a.buyButton:hover { background-position: 0px -514px; }
+.bookRight .tabBox .tabTitPanel .oparaBookBut a.stockoutsBut { text-indent: -999px; overflow: hidden; cursor: default; float: left; height: 30px; width: 100px; line-height: 28px; text-align: center; color: #999; text-decoration: none; margin-top: 12px; background: url(../Images/childredSprit.png) no-repeat 0px -549px; }
+.bookRight .tabConPanel { margin-top: 30px; }
+.bookRight .tabConPanel .tabBookDetail { background: #f5f5f5; border-right: 1px solid #e9e9e9; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft { background: #fff; width: 850px; padding-right: 30px; border-right: 1px solid #e9e9e9; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft h2.tit { width: 102px; height: 32px; border: 1px solid #e9e9e9; background: #f5f5f5; font-weight: normal; text-align: center; line-height: 32px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft h2.tit span { color: #333333; font-weight: bold; font-size: 16px; font-family: 'Microsoft YaHei'; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .copyrightInfor ul { line-height: 22px; margin-top: 17px; overflow: hidden; padding-left: 22px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .copyrightInfor ul li { float: left; width: 276px; color: #666666; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .copyrightInfor ul li.kind { width: 100%; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .copyrightInfor ul li.kind span { float: left; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .copyrightInfor ul li.kind a { float: left; color: #014f7d; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .copyrightInfor ul li.kind span { color: #666666; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .copyrightInfor ul li.kind i { float: left; width: 5px; height: 9px; text-indent: -999px; overflow: hidden; background: url(../Images/childredSprit.png) no-repeat -445px -238px; margin: 6px 6px 0 6px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .editorRec { margin-top: 25px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .editorRec h2.tit { width: 102px; height: 32px; border: 1px solid #0080cc; background: #0080cc; font-weight: normal; text-align: center; line-height: 32px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .editorRec h2.tit span { color: #fff; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .editorRec .con { border: 2px solid #c1e8ff; line-height: 24px; padding: 15px 20px 15px 20px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .editorRec .con p { color: #0080cc; font-size: 14px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .editorRec .con .text { color: #0080cc; font-size: 14px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .specialist { margin-top: 25px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .specialist p { line-height: 24px; color: #666666; font-size: 14px; padding: 15px 25px 0px 22px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .specialist .text { line-height: 24px; color: #666666; font-size: 14px; padding: 15px 25px 0px 22px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .brief { margin-top: 25px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .brief p { line-height: 24px; color: #666666; font-size: 14px; padding: 15px 25px 0px 22px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .brief .text { line-height: 24px; color: #666666; font-size: 14px; padding: 15px 25px 0px 22px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .catalog { margin-top: 25px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .catalog .con { line-height: 24px; color: #666666; max-height: 240px; overflow: hidden; font-size: 14px; padding: 5px 25px 0px 22px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .catalog .con.open { height: auto; max-height: none; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .catalog .switch { line-height: 24px; padding: 0 0 0 22px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .catalog .switch span { color: #e60000; position: relative; padding-right: 12px; cursor: pointer; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .catalog .switch span i { position: absolute; width: 5px; height: 11px; background: url(../Images/childredSprit.png) no-repeat -372px 0px; right: 0; top: 1px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .catalog .switch span.open { color: #0080cc; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .catalog .switch span.open i { background-position: -382px 0px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .excerpt { margin-top: 25px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .excerpt p { line-height: 24px; color: #666666; font-size: 14px; padding: 15px 25px 0px 22px; }
+.bookRight .tabConPanel .tabBookDetail .tabConLeft .excerpt .text { line-height: 24px; color: #666666; font-size: 14px; padding: 15px 25px 0px 22px; }
+.bookRight .tabConPanel .tabBookDetail .tabConRight { float: right; position: relative; width: 98px; }
+.bookRight .tabConPanel .tabBookDetail .tabConRight .tabconNav { overflow: hidden; border-top: 1px solid #e9e9e9; padding-top: 10px; position: absolute; width: 100%; top: 0px; left: 0px; background: #f5f5f5; z-index: 500; }
+.bookRight .tabConPanel .tabBookDetail .tabConRight .tabconNav ul { background: #f5f5f5; }
+.bookRight .tabConPanel .tabBookDetail .tabConRight .tabconNav ul li { line-height: 30px; text-indent: 19px; }
+.bookRight .tabConPanel .tabBookDetail .tabConRight .tabconNav ul li a { display: block; color: #666666; text-decoration: none; position: relative; }
+.bookRight .tabConPanel .tabBookDetail .tabConRight .tabconNav ul li a span { position: absolute; width: 19px; height: 12px; background: url(../Images/childredSprit.png) no-repeat -341px -185px; top: 9px; left: -8px; display: none; }
+.bookRight .tabConPanel .tabBookDetail .tabConRight .tabconNav ul li a:hover { color: #e60000; }
+.bookRight .tabConPanel .tabBookDetail .tabConRight .tabconNav ul li.current a { color: #e60000; }
+.bookRight .tabConPanel .tabBookDetail .tabConRight .tabconNav ul li.current a span { display: block; }
+.bookRight .tabConPanel .tabBookDetail .tabConRight .tabconNav .erweima { background: #f5f5f5; padding: 9px 0 5px 13px; }
+.bookRight .tabConPanel .tabBookDetail .tabConRight .tabconNav .erweima b { display: block; color: #e60000; text-indent: 3px; line-height: 22px; }
+/*商品评论*/
+.tabookReco { margin-top: 20px; }
+.tabookReco .tabookRecoTit { background: #f5f5f5; border: 1px solid #e9e9e9; height: 53px; overflow: hidden; }
+.tabookReco .tabookRecoTit .tit { float: left; height: 53px; line-height: 53px; padding-left: 20px; }
+.tabookReco .tabookRecoTit .tit span { color: #333; font-size: 16px; font-family: 'Microsoft YaHei'; }
+.tabookReco .tabookRecoTit .played { float: right; width: 125px; height: 36px; text-align: center; line-height: 36px; margin: 9px 9px 0 0; }
+.tabookReco .tabookRecoTit .played a { display: block; height: 36px; color: #fff; font-size: 16px; font-family: 'Microsoft YaHei'; background: url(../Images/childredSprit.png) no-repeat -372px -161px; text-decoration: none; }
+.tabookReco .tabookRecoTit .played a:hover { background-position: -109px -514px; }
+.tabookReco .tabookRecoCon .noneReco { text-align: center; line-height: 118px; }
+.tabookReco .tabookRecoCon .noneReco span { color: #666666; font-size: 14px; }
+.tabookReco .tabookRecoCon .recoList ul li { overflow: hidden; border-bottom: 1px solid #e6e6e6; padding: 0 20px 20px; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft { padding-top: 16px; float: left; width: 760px; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .tit { overflow: hidden; line-height: 24px; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .tit .startWrap { width: 86px; float: left; overflow: hidden; height: 22px; line-height: 22px; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .tit .startWrap i { float: left; background: url(../Images/homeindex.png) no-repeat -17px -386px; height: 13px; width: 13px; margin: 5px 3px 0 0; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .tit .startWrap i.one { background-position: 0px -386px; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .tit .startWrap i.half { background-position: -33px -386px; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .tit .theme { float: left; width: 670px; height: 22px; line-height: 22px; overflow: hidden; color: #666666; font-weight: bold; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .con { margin-top: 9px; line-height: 22px; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .con p { color: #666666; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap { overflow: hidden; margin-top: 15px; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .time { float: left; color: #999999; margin-top: 6px; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .oparaBut { float: right; overflow: hidden; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .oparaBut a { float: left; margin-left: 12px; line-height: 16px; height: 16px; width: 59px; border: 1px solid #d6d6d6; color: #666; text-indent: 37px; border-radius: 3px; text-decoration: none; position: relative; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .oparaBut a span { position: absolute; height: 12px; width: 12px; left: 18px; top: 2px; background: url(../Images/childredSprit.png) no-repeat -354px -15px; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .oparaBut a.support span { background-position: -354px -15px; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .oparaBut a.disagree span { background-position: -354px -47px; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .oparaBut a.support.on { color: #e60000; border: 1px solid #e60000; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .oparaBut a.support.on span { background-position: -354px 0; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .oparaBut a.disagree.on { color: #0080cc; border: 1px solid #0080cc; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .oparaBut a.disagree.on span { background-position: -354px -32px; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .oparaBut a.support:hover { color: #e60000; border: 1px solid #e60000; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .oparaBut a.support:hover span { background-position: -354px 0; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .oparaBut a.disagree:hover { color: #0080cc; border: 1px solid #0080cc; }
+.tabookReco .tabookRecoCon .recoList ul li .listLeft .oparaButWrap .oparaBut a.disagree:hover span { background-position: -354px -32px; }
+.tabookReco .tabookRecoCon .recoList ul li .listRight { float: right; width: 160px; }
+.tabookReco .tabookRecoCon .recoList ul li .listRight .userIcon { overflow: hidden; }
+.tabookReco .tabookRecoCon .recoList ul li .listRight .userIcon a { float: right; text-indent: -999px; overflow: hidden; width: 100px; height: 100px; display: block; cursor: default; }
+.tabookReco .tabookRecoCon .recoList ul li .listRight .userIcon a.start1 { background: url(../Images/oneuser.jpg) no-repeat; }
+.tabookReco .tabookRecoCon .recoList ul li .listRight .userIcon a.start2 { background: url(../Images/twouser.jpg) no-repeat; }
+.tabookReco .tabookRecoCon .recoList ul li .listRight .userIcon a.start3 { background: url(../Images/threeuser.jpg) no-repeat; }
+.tabookReco .tabookRecoCon .recoList ul li .listRight .userName { text-align: right; margin-top: 27px; line-height: 22px; }
+.tabookReco .tabookRecoCon .recoList ul li .listRight .userName a { color: #666666; text-decoration: none; }
+/*分页*/
+.pagination { height: 30px; text-align: center; margin-top: 30px; padding-bottom: 30px; }
+.pagination .paging { position: relative; float: right; }
+.pagination ul { display: inline-block; *display: inline; zoom: 1; margin: 0 auto; position: relative; }
+.pagination ul li { float: left; width: 30px; height: 30px; margin-left: -1px; *position: relative; }
+.pagination ul li a { display: block; float: left; width: 28px; height: 28px; border: 1px solid #dadada; line-height: 28px; font-family: Arial; font-size: 12px; color: #666; background: #fff; }
+.pagination ul li span { display: block; line-height: 24px; height: 30px; width: 30px; font-family: tahoma,Arial; overflow: hidden; }
+.pagination ul li a:hover, .pagination ul li.current a { background-color: #e60000; border-color: #e60000; color: #fff; text-decoration: none; }
+.pagination ul li.current a.current { cursor: default; }
+.pagination ul li.prev, .pagination ul li.next { width: 68px; }
+.pagination ul li.prev { margin-right: 10px; }
+.pagination ul li.next { margin-left: 10px; }
+.pagination ul li.prev a, .pagination ul li.next a { display: block; width: 68px; background: #eaeaea; }
+.pagination ul li.prev a:hover, .pagination ul li.next a:hover { border-color: #e60000; background-color: #e60000; color: #fff; }
+.ajaxPage { height: 35px; line-height: 35px; font-size: 16px; color: #333; text-align: center; cursor: pointer; margin-top: 20px; display: none; }
+
+/*书友推荐*/
+.bookLeft .userRec { border: 1px solid #e9e9e9; }
+.bookLeft .userRec h2 { height: 53px; line-height: 53px; border-bottom: 1px solid #e9e9e9; background: #f3f3f3; text-indent: 15px; color: #333333; font-size: 16px; font-family: 'Microsoft YaHei'; font-weight: normal; }
+.bookLeft .userRec ul li { border-bottom: 1px solid #e6e6e6; position: relative; }
+.bookLeft .userRec ul li:last-child { border-bottom: none; }
+.bookLeft .userRec ul li.last { border-bottom: none; }
+.bookLeft .userRec ul li .cover { padding: 15px 20px 10px; text-align: center; height: 158px; display: none; }
+.bookLeft .userRec ul li .cover a img { max-height: 158px; max-width: 158px; }
+.bookLeft .userRec ul li .infor { padding: 0 10px; display: none; }
+.bookLeft .userRec ul li .infor .name { height: 22px; overflow: hidden; line-height: 22px; font-weight: normal; }
+.bookLeft .userRec ul li .infor .name a { color: #333333; text-decoration: none; }
+.bookLeft .userRec ul li .infor .name a:hover { color: #e60000; }
+.bookLeft .userRec ul li .infor .author { height: 22px; line-height: 22px; }
+.bookLeft .userRec ul li .infor .author span { color: #666666; }
+.bookLeft .userRec ul li .infor .priceWrap { overflow: hidden; height: 25px; line-height: 25px; }
+.bookLeft .userRec ul li .infor .priceWrap .sellPrice { float: left; color: #e60000; font-size: 15px; font-family: 'Microsoft YaHei'; margin-right: 6px; }
+.bookLeft .userRec ul li .infor .priceWrap .price { float: left; color: #999; font-family: 'Microsoft YaHei'; }
+.bookLeft .userRec ul li em { position: absolute; width: 4px; height: 6px; right: 10px; text-indent: -999px; overflow: hidden; top: 13px; background: url(../Images/childredSprit.png) no-repeat 0 -343px; }
+.bookLeft .userRec ul li p { text-indent: 10px; height: 32px; line-height: 32px; color: #333333; padding-right: 20px; overflow: hidden; cursor: pointer; }
+.bookLeft .userRec ul li.cur em { display: none; }
+.bookLeft .userRec ul li.cur p { display: none; }
+.bookLeft .userRec ul li.cur { padding-bottom: 4px; }
+.bookLeft .userRec ul li.cur .cover { display: block; }
+.bookLeft .userRec ul li.cur .infor { display: block; }
+/*本类畅销书*/
+.bookLeft .hotBook { border: 1px solid #e9e9e9; margin-top: 20px; }
+.bookLeft .hotBook h2 { height: 53px; line-height: 53px; border-bottom: 1px solid #e9e9e9; background: #f3f3f3; text-indent: 15px; color: #333333; font-size: 16px; font-family: 'Microsoft YaHei'; font-weight: normal; }
+.bookLeft .hotBook ul { padding: 0px 10px; }
+.bookLeft .hotBook ul li { border-bottom: 1px solid #e6e6e6; padding-bottom: 4px; }
+.bookLeft .hotBook ul li:last-child { border-bottom: none; }
+.bookLeft .hotBook ul li.last { border-bottom: none; }
+.bookLeft .hotBook ul li .cover { padding: 15px 10px 10px; height: 158px; text-align: center; }
+.bookLeft .hotBook ul li .cover a img { max-height: 158px; max-width: 158px; }
+.bookLeft .hotBook ul li .infor .name { height: 22px; overflow: hidden; line-height: 22px; font-weight: normal; }
+.bookLeft .hotBook ul li .infor .name a { color: #333333; text-decoration: none; }
+.bookLeft .hotBook ul li .infor .name a:hover { color: #e60000; }
+.bookLeft .hotBook ul li .infor .author { height: 22px; line-height: 22px; overflow: hidden; }
+.bookLeft .hotBook ul li .infor .author span { color: #666666; }
+.bookLeft .hotBook ul li .infor .priceWrap { overflow: hidden; height: 25px; line-height: 25px; }
+.bookLeft .hotBook ul li .infor .priceWrap .sellPrice { float: left; color: #e60000; font-size: 15px; font-family: 'Microsoft YaHei'; margin-right: 6px; }
+.bookLeft .hotBook ul li .infor .priceWrap .price { float: left; color: #999; font-family: 'Microsoft YaHei'; }
+/*本类新书*/
+.bookLeft .newBook { border: 1px solid #e9e9e9; margin-top: 20px; }
+.bookLeft .newBook h2 { height: 53px; line-height: 53px; border-bottom: 1px solid #e9e9e9; background: #f3f3f3; text-indent: 15px; color: #333333; font-size: 16px; font-family: 'Microsoft YaHei'; font-weight: normal; }
+.bookLeft .newBook ul { padding: 0px 10px; }
+.bookLeft .newBook ul li { border-bottom: 1px solid #e6e6e6; padding-bottom: 4px; }
+.bookLeft .newBook ul li:last-child { border-bottom: none; }
+.bookLeft .newBook ul li .cover { padding: 15px 10px 10px; height: 158px; text-align: center; }
+.bookLeft .newBook ul li .cover a img { max-height: 158px; max-width: 158px; }
+.bookLeft .newBook ul li .infor .name { height: 22px; overflow: hidden; line-height: 22px; font-weight: normal; }
+.bookLeft .newBook ul li .infor .name a { color: #333333; text-decoration: none; }
+.bookLeft .newBook ul li .infor .name a:hover { color: #e60000; }
+.bookLeft .newBook ul li .infor .author { height: 22px; line-height: 22px; }
+.bookLeft .newBook ul li .infor .author span { color: #666666; }
+.bookLeft .newBook ul li .infor .priceWrap { overflow: hidden; height: 25px; line-height: 25px; }
+.bookLeft .newBook ul li .infor .priceWrap .sellPrice { float: left; color: #e60000; font-size: 15px; font-family: 'Microsoft YaHei'; margin-right: 6px; }
+.bookLeft .newBook ul li .infor .priceWrap .price { float: left; color: #999; font-family: 'Microsoft YaHei'; }
+/*浏览历史*/
+.bookLeft .lookHistory { border: 1px solid #e9e9e9; margin-top: 20px; }
+.bookLeft .lookHistory h2 { height: 53px; line-height: 53px; border-bottom: 1px solid #e9e9e9; background: #f3f3f3; text-indent: 15px; color: #333333; font-size: 16px; font-family: 'Microsoft YaHei'; font-weight: normal; }
+.bookLeft .lookHistory ul { padding: 0px 10px; }
+.bookLeft .lookHistory ul li { border-bottom: 1px solid #e6e6e6; padding-bottom: 4px; }
+.bookLeft .lookHistory ul li:last-child { border-bottom: none; }
+.bookLeft .lookHistory ul li .cover { padding: 15px 10px 10px; height: 158px; text-align: center; }
+.bookLeft .lookHistory ul li .cover a img { max-height: 158px; max-width: 158px; }
+.bookLeft .lookHistory ul li .infor .name { height: 22px; overflow: hidden; line-height: 22px; font-weight: normal; }
+.bookLeft .lookHistory ul li .infor .name a { color: #333333; text-decoration: none; }
+.bookLeft .lookHistory ul li .infor .name a:hover { color: #e60000; }
+.bookLeft .lookHistory ul li .infor .author { height: 22px; line-height: 22px; overflow: hidden; }
+.bookLeft .lookHistory ul li .infor .author span { color: #666666; }
+.bookLeft .lookHistory ul li .infor .priceWrap { overflow: hidden; height: 25px; line-height: 25px; }
+.bookLeft .lookHistory ul li .infor .priceWrap .sellPrice { float: left; color: #e60000; font-size: 15px; font-family: 'Microsoft YaHei'; margin-right: 6px; }
+.bookLeft .lookHistory ul li .infor .priceWrap .price { float: left; color: #999; font-family: 'Microsoft YaHei'; }
+/*编辑推荐*/
+.siteHot { margin-top: 20px; }
+.siteHot .w1212 { width: 1212px; margin: auto; }
+.siteHot .siteHotTitle { height: 47px; background: #e1f7ff; border-bottom: 3px solid #07bafd; line-height: 47px; width: 1200px; margin: auto; }
+.siteHot .siteHotTitle h2 { text-indent: 18px; font-size: 22px; font-weight: normal; color: #333; font-family: 'Microsoft YaHei'; }
+.siteHot .siteHotCon .siteHotPannel { overflow: hidden; }
+.siteHot .siteHotCon ul { overflow: hidden; width: 1212px; }
+.siteHot .siteHotCon ul li { float: left; height: 291px; width: 186px; border: 2px solid #fff; display: inline; margin: 10px 6px 0; }
+.siteHot .siteHotCon ul li:hover { border: 2px solid #f5f5f5; }
+.siteHot .siteHotCon ul li .bookCover { height: 158px; margin-top: 10px; text-align: center; }
+.siteHot .siteHotCon ul li .bookCover a { display: block; }
+.siteHot .siteHotCon ul li .bookCover a img { max-height: 158px; max-width: 158px; }
+.siteHot .siteHotCon ul li .bookName { width: 150px; padding: 0 20px; line-height: 18px; height: 18px; overflow: hidden; margin-top: 15px; }
+.siteHot .siteHotCon ul li .bookName a { font-size: 12px; font-weight: 400; color: #333; text-decoration: none; }
+.siteHot .siteHotCon ul li .bookName a:hover { color: #e60000; }
+.siteHot .siteHotCon ul li .bookAuthor { margin-top: 2px; color: #666; width: 150px; padding: 0 20px; line-height: 18px; height: 18px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+.siteHot .siteHotCon ul li .priceWrap { margin-top: 4px; width: 150px; padding: 0 20px; overflow: hidden; line-height: 16px; }
+.siteHot .siteHotCon ul li .priceWrap .salePrice { float: left; color: #e60000; font-size: 15px; font-family: "Microsoft YaHei"; }
+.siteHot .siteHotCon ul li .priceWrap .price { line-height: 18px; margin-left: 7px; float: left; color: #999999; text-decoration-line: line-through; }
+.siteHot .siteHotCon ul li .buyButton { margin-top: 6px; overflow: hidden; }
+.siteHot .siteHotCon ul li .buyButton a { margin: 2px auto 0; display: block; width: 158px; height: 26px; line-height: 26px; text-align: center; background: #e1f7ff; color: #666666; text-decoration: none; }
+.siteHot .siteHotCon ul li .buyButton a:hover { width: 118px; height: 28px; background: #e60000; color: #ffffff; margin-top: 0; line-height: 28px; }
+/*侧导航*/
+.siderbar { position: fixed; bottom: 10px; right: 0; width: 51px; z-index: 997; background: #fff; }
+.siderbar ul li { border: 2px solid #a39898; border-bottom: none; position: relative; }
+.siderbar ul li > a { color: #666; line-height: 16px; display: block; padding: 4px 6px; text-decoration: none; }
+.siderbar ul li.nextStyle { border-top-color: #e60000; }
+.siderbar ul li .shareTit { display: block; line-height: 22px; padding: 4px 6px 0; text-align: center; }
+.siderbar ul li .shareTit span { display: block; width: 17px; height: 14px; background: url(../Images/childredSprit.png) no-repeat -25px -424px; margin: auto; }
+.siderbar ul li:hover .shareTit span { background: url(../Images/childredSprit.png) no-repeat 0 -424px; }
+.siderbar ul li .weixinTit { display: block; line-height: 22px; padding: 4px 6px 0; text-align: center; }
+.siderbar ul li .weixinTit span { display: block; width: 20px; height: 16px; background: url(../Images/childredSprit.png) no-repeat -25px -463px; margin: auto; }
+.siderbar ul li:hover .weixinTit span { background: url(../Images/childredSprit.png) no-repeat 0 -463px; }
+.siderbar ul li .weixinWrap { position: absolute; left: -109px; width: 109px; display: none; top: -25px; text-align: center; }
+.siderbar ul li .weixinWrap .weixinWrapInner { width: 94px; height: 110px; background: #ffffff; border: 2px solid #a39898; color: #666; position: relative; }
+.siderbar ul li .weixinWrap .weixinWrapInner:hover { color: #e60000; }
+.siderbar ul li .weixinWrap .weixinWrapInner span.icon { position: absolute; width: 10px; height: 15px; top: 40px; right: -10px; background: url(../Images/childredSprit.png) no-repeat 0 -485px; }
+.siderbar ul li .weixinWrap img { width: 100%; }
+.siderbar ul li .shareWrap { position: absolute; left: -165px; display: none; top: -2px; width: 151px; border: 2px solid #a39898; height: 40px; background: #ffffff; border-right: none; padding-left: 10px; }
+.siderbar ul li:hover .shareWrap { display: block; }
+.siderbar ul li:hover .weixinWrap { display: block; }
+.siderbar ul li .shareWrap a { float: left; display: inline; margin: 8px 5px 8px 0; }
+.siderbar ul li:hover { background: #e60000; border-color: #e60000; }
+.siderbar ul li:hover a { color: #fff; }
+.siderbar .backtop a { text-indent: -999px; background: #a39898; overflow: hidden; display: block; height: 24px; overflow: hidden; }
+.siderbar .backtop a span { display: block; width: 20px; height: 14px; margin: auto; background: url(../Images/childredSprit.png) no-repeat -24px -441px; margin-top: 6px; }
+.siderbar .backtop a:hover span { background: url(../Images/childredSprit.png) no-repeat 0 -441px; }
+/*返回顶部*/
+.bocktop { display: none; cursor: pointer; position: fixed; left: 50%; margin-left: 610px; bottom: 80px; width: 40px; height: 40px; background: url(http://tuan.bookschina.com/Content/images/backtop.jpg) no-repeat; }
+.bocktop a { display: block; padding: 4px 8px; line-height: 16px; text-indent: -999px; overflow: hidden; color: #333; }
+.bocktop:hover { background: none; }
+.bocktop:hover a { text-indent: 0px; background: #e6e6e7; }
+.bocktop:hover a:hover { text-decoration: none; }
+/*弹框css*/
+.kindPop { border: none; border-radius: 5px; }
+.kindPop .popTitle { background: #fff; position: relative; height: 14px; }
+.kindPop .popContent { text-align: center; }
+.kindPop .text { display: none; }
+.kindPop .close { margin: 0px; right: 6px; height: 8px; line-height: 8px; top: 8px; }
+.kindPop .dialogContent { text-align: center; margin-top: 10px; }
+.kindPop .txt_02 { font-size: 16px; font-weight: normal; padding-left: 30px; font-family: 'Microsoft YaHei'; color: #333; position: relative; }
+.kindPop .txt_02 span.warnIcon { width: 20px; height: 19px; left: 0; position: absolute; background: url(../Images/childredSprit.png) no-repeat -131px -421px; }
+.kindPop .dialogContent a { display: block; margin-top: 23px; color: #0080cc; text-decoration: underline; }
+.kindPop .dialogContent a:hover { color: #e60000; }
+.kindPop .txt_01 { font-size: 16px; font-weight: normal; font-family: 'Microsoft YaHei'; color: #333; }
+/*大图弹框*/
+.popbig { border: none; border-radius: 0px; }
+.popbig .popBigWrap { padding: 60px; position: relative; }
+.popbig .popBigWrap .popBigInner { text-align: center; }
+.popbig .popBigWrap .popBigInner img { cursor: url(../Images/fangda.png),pointer; }
+
+
+
+.popbig .popBigWrap .close { position: absolute; right: 6px; top: 0px; cursor: pointer; color: #999999; font-size: 26px; }
+.popbig .popBigWrap .close:hover { color: #e60000; }
+
+/*百度分享*/
+.bdsharebuttonbox { overflow: hidden; width: 49px; margin: auto; }
+.bdshare_popup_top { display: none; }
+.bdshare_popup_bottom { display: none; }
